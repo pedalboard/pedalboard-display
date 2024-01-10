@@ -503,6 +503,38 @@
     [
       "02aefeb1-bdda-4e04-a64a-6cb1fcf66702",
       ""
+    ],
+    [
+      "03a1be90-6662-4c1b-aea8-af89ab9fe3ff",
+      "Led Ring GAIN"
+    ],
+    [
+      "c00f76d2-ee00-4ab6-af0a-f31a76675e6f",
+      "Led Ring F"
+    ],
+    [
+      "60bcd1af-a60a-4f55-975b-2d52ed6bc101",
+      "Led Ring C"
+    ],
+    [
+      "a611c427-264b-4cbb-a141-70a2759b7fda",
+      "Led Ring B"
+    ],
+    [
+      "8686615e-b239-440c-93c8-70026f9bbbfb",
+      "Led Ring E"
+    ],
+    [
+      "b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2",
+      "Led Ring VOL"
+    ],
+    [
+      "9f368d8b-0a33-48ea-87fd-73a39b4ae17d",
+      "Led Ring D"
+    ],
+    [
+      "c644a370-7604-41fa-a06f-3d12156bb3c9",
+      "Led Ring A"
     ]
   ],
   "text_variables": {}

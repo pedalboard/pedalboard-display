@@ -24,7 +24,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/lates
 * Foot switch actuator: [Data Sheet](https://www.cliffuk.co.uk/products/switches/FC7125.pdf) [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/actuator.stl)
 * Washer: [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/led-ring-washer.stl)
 
-## Release
+## How to release
 
-The release procedure is the same as for [pedalboard-hw](https://github.com/pedalboard/pedalboard-hw#release)
+The release procedure is the same as for [pedalboard-hw](https://github.com/pedalboard/pedalboard-hw/blob/main/doc/release-procedure.md)
 
