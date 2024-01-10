@@ -2,7 +2,7 @@
 
 Features:
 
-- LED rings
+- 8 LED rings
 - Each of the 12 LEDs on a ring can get an individual color.
 - The led rings are cascaded and addressed via a single serial line.
 - Connector: Stemma conform 3 pin JST-PH 
