@@ -403,11 +403,11 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "pedalboard-led-ring"
+      "pedalboard-display"
     ]
   },
   "meta": {
-    "filename": "pedalboard-led-ring.kicad_pro",
+    "filename": "pedalboard-display.kicad_pro",
     "version": 1
   },
   "net_settings": {

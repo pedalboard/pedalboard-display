@@ -362,7 +362,7 @@
         )
       )
     )
-    (symbol "pedalboard-led-ring:SK6812" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "pedalboard-display:SK6812" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 5.08 5.715 0)
         (effects (font (size 1.27 1.27)) (justify right bottom))
       )
@@ -1202,7 +1202,7 @@
     (uuid f623a1cd-647e-4723-8be6-b09d236dd38a)
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 76.2 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 76.2 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09f55044-dd39-4000-95b9-f4658b8de28e)
     (property "Reference" "D3" (at 82.55 46.99 0)
@@ -1225,7 +1225,7 @@
     (pin "3" (uuid b720fecb-6dbb-409e-91e3-a6d0c8730aa5))
     (pin "4" (uuid 782fd734-6b65-4f8f-b2a4-faabf16cd5cc))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D3") (unit 1)
         )
@@ -1254,7 +1254,7 @@
     (pin "1" (uuid 45e587e4-2c54-4079-8fbf-bae2270cf9b9))
     (pin "2" (uuid bccf5297-9bb4-4ebd-b5a5-727c0fcd1881))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C7") (unit 1)
         )
@@ -1279,7 +1279,7 @@
     )
     (pin "1" (uuid 96e9fb49-e8a3-4c31-87bf-da7cee3735a8))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "#PWR05") (unit 1)
         )
@@ -1287,7 +1287,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 147.32 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 147.32 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13cf49c6-cf9d-409f-8deb-3572c3320a64)
     (property "Reference" "D7" (at 153.67 46.99 0)
@@ -1310,7 +1310,7 @@
     (pin "3" (uuid 34941570-b419-459f-a5a3-41a51c0c9b06))
     (pin "4" (uuid aa7aa49d-b755-42aa-871a-d82eab1886b0))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D7") (unit 1)
         )
@@ -1339,7 +1339,7 @@
     (pin "1" (uuid 9b140a4d-9a6e-4167-9caf-f2625893be48))
     (pin "2" (uuid c4d85460-5c55-4d14-9ab4-edafc78e5ac4))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C2") (unit 1)
         )
@@ -1347,7 +1347,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 165.1 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 165.1 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2452edc3-a01f-4f08-9357-9f1766869629)
     (property "Reference" "D8" (at 171.45 46.99 0)
@@ -1370,7 +1370,7 @@
     (pin "3" (uuid dd2d604e-ef9c-4284-8206-438d16440a5c))
     (pin "4" (uuid 91f3c267-10ba-447a-b396-4758d8e4c457))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D8") (unit 1)
         )
@@ -1395,7 +1395,7 @@
     )
     (pin "1" (uuid 384dadba-ab33-4db1-8566-bd48193d4f92))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "#PWR07") (unit 1)
         )
@@ -1424,7 +1424,7 @@
     (pin "1" (uuid 312c646c-35f9-402b-940e-7ef0e2ea573e))
     (pin "2" (uuid 6f81569f-e534-4084-9af4-78c84cf33e02))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C1") (unit 1)
         )
@@ -1432,7 +1432,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 111.76 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 111.76 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40729748-e60b-41d2-b565-5ac76ae97c2d)
     (property "Reference" "D5" (at 118.11 46.99 0)
@@ -1455,7 +1455,7 @@
     (pin "3" (uuid a450bd93-4b7c-4d8b-a98b-20297a22de7c))
     (pin "4" (uuid fa390cb7-7b3d-44b9-a4b5-2c749db0a4b4))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D5") (unit 1)
         )
@@ -1490,7 +1490,7 @@
     (pin "1" (uuid e901108d-96f1-4bc6-9648-fdfab2597574))
     (pin "2" (uuid 4b87581e-dcb5-4ff5-820a-3c41432e8403))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D13") (unit 1)
         )
@@ -1519,7 +1519,7 @@
     (pin "1" (uuid e79823d2-83e2-4cc3-8364-03115bfa5b46))
     (pin "2" (uuid 7fb7ff66-7dc7-49b6-b6b9-4877804bab47))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C12") (unit 1)
         )
@@ -1543,7 +1543,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "FID2") (unit 1)
         )
@@ -1574,7 +1574,7 @@
     (pin "3" (uuid 12fdccdf-12c5-4c77-8d3e-68551f0b3e56))
     (pin "4" (uuid c98a9fd9-63e8-49e8-aa7f-e8e6299c3031))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "J1") (unit 1)
         )
@@ -1603,7 +1603,7 @@
     (pin "1" (uuid 81f1902d-c737-4508-aa5d-48bde79ed0ba))
     (pin "2" (uuid 622278de-987a-46fb-85f2-6c23083d1bd1))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C9") (unit 1)
         )
@@ -1629,7 +1629,7 @@
     (pin "1" (uuid 0368cb47-a9ee-46f5-86f0-732086a8e734))
     (pin "2" (uuid d410d425-31ec-4467-b6de-a83101b58f17))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "JP1") (unit 1)
         )
@@ -1637,7 +1637,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 200.66 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 200.66 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7480ffc7-a20f-4663-9fbe-21b5ebc33eb4)
     (property "Reference" "D10" (at 208.28 46.99 0)
@@ -1660,7 +1660,7 @@
     (pin "3" (uuid 16a6b090-bb09-4542-8a53-fb6ee7514c54))
     (pin "4" (uuid 563e34c8-580f-4bc8-b2fd-b35feae1e0d8))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D10") (unit 1)
         )
@@ -1684,7 +1684,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "FID1") (unit 1)
         )
@@ -1713,7 +1713,7 @@
     (pin "1" (uuid a405bb3b-f405-4f80-9ce3-788820232297))
     (pin "2" (uuid 17961e57-7db9-4fc6-8c0a-91ee1f56226d))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C5") (unit 1)
         )
@@ -1742,7 +1742,7 @@
     (pin "1" (uuid 1906b439-21c4-49a0-9f00-e1165166823b))
     (pin "2" (uuid 583f3532-a345-44fa-83db-b118cd620957))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C8") (unit 1)
         )
@@ -1771,7 +1771,7 @@
     (pin "1" (uuid cb28fe33-6be1-46e7-aa11-820b1ab5c31c))
     (pin "2" (uuid 5dd9999e-89e3-4e48-86ef-00095c0e8b20))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C11") (unit 1)
         )
@@ -1798,7 +1798,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "H4") (unit 1)
         )
@@ -1827,7 +1827,7 @@
     (pin "1" (uuid cc7873ab-495c-4cdd-819e-4e085f6ef488))
     (pin "2" (uuid 75c78272-cd5d-4746-b4a0-b3759d53e3bf))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "R1") (unit 1)
         )
@@ -1835,7 +1835,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 40.64 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 40.64 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96f92898-474b-4fed-a32a-03a70ce4dc24)
     (property "Reference" "D1" (at 46.99 46.99 0)
@@ -1858,7 +1858,7 @@
     (pin "3" (uuid d95c33ea-fab1-4509-950c-7aaa2a345ba5))
     (pin "4" (uuid 753b8366-5a47-4e97-b84a-4b4d29b38840))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D1") (unit 1)
         )
@@ -1887,7 +1887,7 @@
     (pin "1" (uuid f9d43d6d-f30f-414d-87a7-3b6140948322))
     (pin "2" (uuid 5d1705ef-b162-4ac6-8a66-03b3a55f378e))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C4") (unit 1)
         )
@@ -1895,7 +1895,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 58.42 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 58.42 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1cbfabb-569d-49f0-9d2b-2992c2e61e18)
     (property "Reference" "D2" (at 64.77 46.99 0)
@@ -1918,7 +1918,7 @@
     (pin "3" (uuid 6cabd6a5-8ca8-4d79-911d-53407219e740))
     (pin "4" (uuid d9b83a8c-a40a-4889-a86f-7290e568b647))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D2") (unit 1)
         )
@@ -1943,7 +1943,7 @@
     )
     (pin "1" (uuid b5f93997-fe0a-4ebb-b130-eca0c6eb9289))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "#PWR03") (unit 1)
         )
@@ -1968,7 +1968,7 @@
     )
     (pin "1" (uuid 3e2e6d92-3fb7-4ff0-b266-25b0975d963d))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "#PWR04") (unit 1)
         )
@@ -1993,7 +1993,7 @@
     )
     (pin "1" (uuid c977e82c-7e2f-42ba-ac00-16edc171ea36))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "#PWR06") (unit 1)
         )
@@ -2001,7 +2001,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 182.88 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 182.88 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb9d60b0-7930-4512-8925-b271da23f82e)
     (property "Reference" "D9" (at 189.23 46.99 0)
@@ -2024,7 +2024,7 @@
     (pin "3" (uuid 8bfaa49d-0667-4dad-93e4-fbc0354306b1))
     (pin "4" (uuid 6ac1b4ad-0d2c-43ea-b505-87ef42041e11))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D9") (unit 1)
         )
@@ -2049,7 +2049,7 @@
     )
     (pin "1" (uuid 70b09010-376e-4021-9ae4-b500ab40923f))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "#PWR01") (unit 1)
         )
@@ -2078,7 +2078,7 @@
     (pin "1" (uuid 962282ac-5362-4ba5-923c-6f69c1b12584))
     (pin "2" (uuid 48f686a4-a52c-4864-924b-a276e68fb1f8))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C10") (unit 1)
         )
@@ -2103,7 +2103,7 @@
     )
     (pin "1" (uuid e2419d99-0872-4f7d-adc2-bbc31ed6c1ae))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "#PWR02") (unit 1)
         )
@@ -2132,7 +2132,7 @@
     (pin "1" (uuid bf6b1640-4d53-44e1-8385-1f6390b900fd))
     (pin "2" (uuid c94ef798-0201-4d62-990c-0f3008d21ac9))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C6") (unit 1)
         )
@@ -2140,7 +2140,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 93.98 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 93.98 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdcab664-9e7c-45e1-9268-a7d5efacea03)
     (property "Reference" "D4" (at 100.33 46.99 0)
@@ -2163,7 +2163,7 @@
     (pin "3" (uuid 10389cae-02c5-4d0f-9201-f03f11d759ec))
     (pin "4" (uuid 36b86fd8-2188-43e9-83cf-e1ef0688c20e))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D4") (unit 1)
         )
@@ -2171,7 +2171,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 236.22 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 236.22 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf434160-e53c-47a2-9311-cdb99d04e67d)
     (property "Reference" "D12" (at 243.84 46.99 0)
@@ -2194,7 +2194,7 @@
     (pin "3" (uuid fbefc98c-3ea4-4cb8-b965-699e210f99d1))
     (pin "4" (uuid 0e1d65ea-cc81-4908-a6fc-23e2fc8953ae))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D12") (unit 1)
         )
@@ -2202,7 +2202,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 218.44 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 218.44 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5f6c22d-f702-4516-a370-fe4b8f10eb79)
     (property "Reference" "D11" (at 226.06 46.99 0)
@@ -2225,7 +2225,7 @@
     (pin "3" (uuid 6ffd2077-5707-4c8d-a781-b6894b5a1c1d))
     (pin "4" (uuid 726f7e2b-b874-4fb9-8017-b6859ca72159))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D11") (unit 1)
         )
@@ -2249,7 +2249,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "FID3") (unit 1)
         )
@@ -2257,7 +2257,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard-led-ring:SK6812") (at 129.54 50.8 0) (unit 1)
+  (symbol (lib_id "pedalboard-display:SK6812") (at 129.54 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f69cd4e5-1a79-4dbc-98cb-eb3d4b38370e)
     (property "Reference" "D6" (at 135.89 46.99 0)
@@ -2280,7 +2280,7 @@
     (pin "3" (uuid cc7bce35-2523-4ac8-8719-3deafdb9c8b0))
     (pin "4" (uuid 067bc548-d239-4a1e-9547-ce28ffc8d941))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "D6") (unit 1)
         )
@@ -2309,7 +2309,7 @@
     (pin "1" (uuid 2f726005-1e85-4805-85e4-cd4a35cfe8bf))
     (pin "2" (uuid 4e1b9350-a186-4048-8026-561d7787843c))
     (instances
-      (project "pedalboard-led-ring"
+      (project "pedalboard-display"
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
           (reference "C3") (unit 1)
         )
