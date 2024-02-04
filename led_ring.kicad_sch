@@ -836,7 +836,7 @@
   (symbol (lib_id "Device:C") (at 135.89 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 029e395c-1fc1-4b67-9758-83e93694a128)
-    (property "Reference" "C?" (at 139.7 116.205 0)
+    (property "Reference" "C9" (at 139.7 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 139.7 118.745 0)
@@ -855,9 +855,6 @@
     (pin "2" (uuid 02b9e30f-c500-40db-8503-db6a59175c7c))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C9") (unit 1)
         )
@@ -889,7 +886,7 @@
   (symbol (lib_id "Device:C") (at 124.46 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0829ff13-017f-4514-86ce-cad57b9f05f9)
-    (property "Reference" "C?" (at 128.27 116.205 0)
+    (property "Reference" "C8" (at 128.27 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 128.27 118.745 0)
@@ -908,9 +905,6 @@
     (pin "2" (uuid 36324542-4800-4bf2-89a1-0e24222d38f5))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C8") (unit 1)
         )
@@ -942,7 +936,7 @@
   (symbol (lib_id "Device:C") (at 68.58 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e61aa9b-e09c-4723-9310-13701fbb0516)
-    (property "Reference" "C?" (at 72.39 116.205 0)
+    (property "Reference" "C3" (at 72.39 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 72.39 118.745 0)
@@ -961,9 +955,6 @@
     (pin "2" (uuid 147af308-d42b-4be0-9202-e2bcd51183a8))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C3") (unit 1)
         )
@@ -995,7 +986,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 247.65 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ebd01f4-40b9-49a9-a3e2-066721ebabcb)
-    (property "Reference" "D?" (at 255.27 48.26 0)
+    (property "Reference" "D12" (at 255.27 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 260.35 51.4859 0)
@@ -1016,9 +1007,6 @@
     (pin "4" (uuid 18353f43-27bb-49c1-944c-781799ebe764))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D12") (unit 1)
         )
@@ -1050,7 +1038,7 @@
   (symbol (lib_id "Device:C") (at 168.91 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29b28bef-647b-4e50-99e9-9711c7f1f241)
-    (property "Reference" "C?" (at 172.72 116.205 0)
+    (property "Reference" "C12" (at 172.72 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 172.72 118.745 0)
@@ -1069,9 +1057,6 @@
     (pin "2" (uuid 812fb989-454a-4688-9fd4-3e9f95cbc0e0))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C12") (unit 1)
         )
@@ -1103,7 +1088,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 123.19 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f4f2f46-b97c-4990-afef-b8df9dd4955f)
-    (property "Reference" "D?" (at 129.54 48.26 0)
+    (property "Reference" "D5" (at 129.54 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 135.89 51.4859 0)
@@ -1124,9 +1109,6 @@
     (pin "4" (uuid 75b38bf3-c230-40e0-b0a0-7feece4e3085))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D5") (unit 1)
         )
@@ -1158,7 +1140,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 69.85 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33c1e378-6622-43cb-b811-4e19bca3035b)
-    (property "Reference" "D?" (at 76.2 48.26 0)
+    (property "Reference" "D2" (at 76.2 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 82.55 51.4859 0)
@@ -1179,9 +1161,6 @@
     (pin "4" (uuid 850da355-2790-4f6d-9b9b-b83e73c927f3))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D2") (unit 1)
         )
@@ -1213,7 +1192,7 @@
   (symbol (lib_id "Device:C") (at 101.6 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50a140fd-77cf-4c7d-87a7-a8e9211eaaa8)
-    (property "Reference" "C?" (at 105.41 116.205 0)
+    (property "Reference" "C6" (at 105.41 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 105.41 118.745 0)
@@ -1232,9 +1211,6 @@
     (pin "2" (uuid de23d969-0656-4a75-aac1-589e47f715ac))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C6") (unit 1)
         )
@@ -1266,7 +1242,7 @@
   (symbol (lib_id "power:GND") (at 68.58 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a6fff46-0adc-42f9-8f1b-0e8f246ccdb9)
-    (property "Reference" "#PWR?" (at 68.58 138.43 0)
+    (property "Reference" "#PWR06" (at 68.58 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 137.16 0)
@@ -1281,9 +1257,6 @@
     (pin "1" (uuid 07778cdb-5cd3-439a-8843-0c55d07d298c))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "#PWR06") (unit 1)
         )
@@ -1361,7 +1334,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 140.97 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5de16ab3-a918-44c6-8d06-b1c045e5a80f)
-    (property "Reference" "D?" (at 147.32 48.26 0)
+    (property "Reference" "D6" (at 147.32 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 153.67 51.4859 0)
@@ -1382,9 +1355,6 @@
     (pin "4" (uuid a6afeba7-9b97-4bb6-a4b9-845e3c2d6d09))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D6") (unit 1)
         )
@@ -1416,7 +1386,7 @@
   (symbol (lib_id "Device:C") (at 146.05 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68fd87e3-d9b5-4fa6-8a8f-95b033f5371e)
-    (property "Reference" "C?" (at 149.86 116.205 0)
+    (property "Reference" "C10" (at 149.86 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 149.86 118.745 0)
@@ -1435,9 +1405,6 @@
     (pin "2" (uuid ef8c9e4d-b491-459d-a67f-e6da4645afbf))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C10") (unit 1)
         )
@@ -1469,7 +1436,7 @@
   (symbol (lib_id "Device:C") (at 157.48 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6af91d45-fed6-4228-8ae0-4c45b53551cc)
-    (property "Reference" "C?" (at 161.29 116.205 0)
+    (property "Reference" "C11" (at 161.29 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 161.29 118.745 0)
@@ -1488,9 +1455,6 @@
     (pin "2" (uuid cdd8d156-ca32-4539-b64c-c3616bc8094e))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C11") (unit 1)
         )
@@ -1522,7 +1486,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 176.53 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c3488fa-5d25-4787-8c90-ebfc8692ec2b)
-    (property "Reference" "D?" (at 182.88 48.26 0)
+    (property "Reference" "D8" (at 182.88 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 189.23 51.4859 0)
@@ -1543,9 +1507,6 @@
     (pin "4" (uuid 1761b4fd-2719-48b2-8282-7c9a199215e8))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D8") (unit 1)
         )
@@ -1577,7 +1538,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 229.87 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 813bfd09-0fc7-4824-9a44-a086dfa8fdc7)
-    (property "Reference" "D?" (at 237.49 48.26 0)
+    (property "Reference" "D11" (at 237.49 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 242.57 51.4859 0)
@@ -1598,9 +1559,6 @@
     (pin "4" (uuid 35bbe124-280f-4026-ad15-48d4ebea939d))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D11") (unit 1)
         )
@@ -1632,7 +1590,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 105.41 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84a781bf-4dc3-480a-8a7c-028b2659015e)
-    (property "Reference" "D?" (at 111.76 48.26 0)
+    (property "Reference" "D4" (at 111.76 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 118.11 51.4859 0)
@@ -1653,9 +1611,6 @@
     (pin "4" (uuid 86465931-ef2d-48dc-bbdb-d55c9cadd678))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D4") (unit 1)
         )
@@ -1687,7 +1642,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 158.75 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 921cd85d-280a-4309-8e2e-9bde9969fcd0)
-    (property "Reference" "D?" (at 165.1 48.26 0)
+    (property "Reference" "D7" (at 165.1 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 171.45 51.4859 0)
@@ -1708,9 +1663,6 @@
     (pin "4" (uuid 95f091ee-2de8-40b6-9993-a1f7bd6283d1))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D7") (unit 1)
         )
@@ -1742,7 +1694,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 87.63 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96103b4e-106e-4f87-9c80-bf726dad36be)
-    (property "Reference" "D?" (at 93.98 48.26 0)
+    (property "Reference" "D3" (at 93.98 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 100.33 51.4859 0)
@@ -1763,9 +1715,6 @@
     (pin "4" (uuid d909ac9d-f97c-4f84-9f40-1d2d962504c3))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D3") (unit 1)
         )
@@ -1797,7 +1746,7 @@
   (symbol (lib_id "power:GND") (at 69.85 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 991a3548-eda3-41ef-9d9c-300c3156d401)
-    (property "Reference" "#PWR?" (at 69.85 73.66 0)
+    (property "Reference" "#PWR04" (at 69.85 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 72.39 0)
@@ -1812,9 +1761,6 @@
     (pin "1" (uuid d8bbbd08-8384-4818-9a7f-7284cd1383c0))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "#PWR04") (unit 1)
         )
@@ -1846,7 +1792,7 @@
   (symbol (lib_id "power:VCC") (at 68.58 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac682c94-29ed-4d84-98ab-723cc0821932)
-    (property "Reference" "#PWR?" (at 68.58 106.68 0)
+    (property "Reference" "#PWR05" (at 68.58 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 68.58 99.06 0)
@@ -1861,9 +1807,6 @@
     (pin "1" (uuid d1196c94-1220-42cc-9c02-79abbda5a30f))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "#PWR05") (unit 1)
         )
@@ -1895,7 +1838,7 @@
   (symbol (lib_id "Device:C") (at 45.72 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2)
-    (property "Reference" "C?" (at 49.53 116.205 0)
+    (property "Reference" "C1" (at 49.53 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 49.53 118.745 0)
@@ -1914,9 +1857,6 @@
     (pin "2" (uuid f2858fb4-dd2d-4ad4-a7dd-39c060c74330))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C1") (unit 1)
         )
@@ -1948,7 +1888,7 @@
   (symbol (lib_id "Device:C") (at 113.03 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c540d291-3362-4839-8d86-1dc77d0993ff)
-    (property "Reference" "C?" (at 116.84 116.205 0)
+    (property "Reference" "C7" (at 116.84 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 116.84 118.745 0)
@@ -1967,9 +1907,6 @@
     (pin "2" (uuid fb92d5dc-0484-420f-b690-3b8853f29832))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C7") (unit 1)
         )
@@ -2001,7 +1938,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 52.07 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c80cb5bd-1fec-412a-880d-08a0b19acd6a)
-    (property "Reference" "D?" (at 58.42 48.26 0)
+    (property "Reference" "D1" (at 58.42 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 60.96 44.45 0)
@@ -2022,9 +1959,6 @@
     (pin "4" (uuid 5f929bea-1a89-4f9f-ab01-338602b87f6d))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D1") (unit 1)
         )
@@ -2056,7 +1990,7 @@
   (symbol (lib_id "Device:C") (at 90.17 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddf41873-2460-4c9c-9cd3-512ea643caed)
-    (property "Reference" "C?" (at 93.98 116.205 0)
+    (property "Reference" "C5" (at 93.98 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 93.98 118.745 0)
@@ -2075,9 +2009,6 @@
     (pin "2" (uuid 45c72b9d-5561-4816-bc47-e5f8f9d7b429))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C5") (unit 1)
         )
@@ -2109,7 +2040,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 194.31 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4006925-9ed2-475f-b4f6-3ec88739cb0e)
-    (property "Reference" "D?" (at 200.66 48.26 0)
+    (property "Reference" "D9" (at 200.66 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 207.01 51.4859 0)
@@ -2130,9 +2061,6 @@
     (pin "4" (uuid 60f6a9dc-5c60-44e5-83f0-84410a0d5457))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D9") (unit 1)
         )
@@ -2164,7 +2092,7 @@
   (symbol (lib_id "pedalboard-display:SK6812") (at 212.09 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e65fc733-c89b-4270-a559-a00afe5a7a13)
-    (property "Reference" "D?" (at 219.71 48.26 0)
+    (property "Reference" "D10" (at 219.71 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812_EC15" (at 224.79 51.4859 0)
@@ -2185,9 +2113,6 @@
     (pin "4" (uuid db58906c-6b43-45f5-9432-d3b34de06b3a))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "D?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "D10") (unit 1)
         )
@@ -2219,7 +2144,7 @@
   (symbol (lib_id "Device:C") (at 78.74 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edf8cb91-f8e6-448c-8a08-ef47a5449b99)
-    (property "Reference" "C?" (at 82.55 116.205 0)
+    (property "Reference" "C4" (at 82.55 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 82.55 118.745 0)
@@ -2238,9 +2163,6 @@
     (pin "2" (uuid 06c1f6d3-f5fd-4aed-a4be-152adf5f190e))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C4") (unit 1)
         )
@@ -2272,7 +2194,7 @@
   (symbol (lib_id "Device:C") (at 57.15 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1acd66f-c119-4e62-979e-486975143263)
-    (property "Reference" "C?" (at 60.96 116.205 0)
+    (property "Reference" "C2" (at 60.96 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 60.96 118.745 0)
@@ -2291,9 +2213,6 @@
     (pin "2" (uuid 8615015d-5eb7-4dcd-bf5b-f3d38e138f36))
     (instances
       (project "pedalboard-display"
-        (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-          (reference "C?") (unit 1)
-        )
         (path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
           (reference "C2") (unit 1)
         )
