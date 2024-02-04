@@ -60,4 +60,4 @@ jobs:
         folder: generated
         target-folder: latest
         repository-name: pedalboard/pedalboard-display-site
-        token: ${{ secrets.DEPLOY_TO_PEDALBOARD_LED_RING_SITE }}
+        token: ${{ secrets.DEPLOY_TO_PEDALBOARD_DISPLAY_SITE }}
