@@ -206,7 +206,7 @@
 
   (footprint "Fiducial:Fiducial_0.5mm_Mask1mm" (layer "F.Cu")
     (tstamp 00b2647a-a591-459e-aa1e-70f7d78b3a1c)
-    (at 199 27)
+    (at 189 26)
     (descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
     (tags "fiducial")
     (property "Sheetfile" "pedalboard-display.kicad_sch")
@@ -2722,7 +2722,7 @@
 
   (footprint "Fiducial:Fiducial_0.5mm_Mask1mm" (layer "F.Cu")
     (tstamp 3223c7c6-62d0-4722-8c38-eedecd76336c)
-    (at 34 22)
+    (at 25 26)
     (descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
     (tags "fiducial")
     (property "Sheetfile" "pedalboard-display.kicad_sch")
@@ -5880,7 +5880,7 @@
 
   (footprint "Fiducial:Fiducial_0.5mm_Mask1mm" (layer "F.Cu")
     (tstamp 7653da93-7bff-40c4-a21e-8cae171bb70f)
-    (at 185 140.5)
+    (at 189 135)
     (descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
     (tags "fiducial")
     (property "Sheetfile" "pedalboard-display.kicad_sch")
@@ -12532,7 +12532,7 @@
 
   (footprint "Fiducial:Fiducial_0.5mm_Mask1mm" (layer "F.Cu")
     (tstamp f6c5b006-3a97-4542-ac17-1e8206e0eb5a)
-    (at 31 140)
+    (at 25 135)
     (descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
     (tags "fiducial")
     (property "Sheetfile" "pedalboard-display.kicad_sch")
