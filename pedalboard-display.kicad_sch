@@ -5,11 +5,11 @@
 	(uuid "02aefeb1-bdda-4e04-a64a-6cb1fcf66702")
 	(paper "A4")
 	(title_block
-		(title "Pedalboard neopixel ring")
+		(title "Pedalboard Dispaly")
 		(date "2024-10-04")
 		(rev "0.0.0-RC1")
 		(company "https://github.com/pedalboard")
-		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-neopixel-ring")
+		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-display")
 		(comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
 		(comment 3 "Git commit: ${GIT_HASH}")
 	)
