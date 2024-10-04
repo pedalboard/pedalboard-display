@@ -5,11 +5,11 @@
 	(uuid "02aefeb1-bdda-4e04-a64a-6cb1fcf66702")
 	(paper "A4")
 	(title_block
-		(title "Pedalboard Dispaly")
+		(title "Pedalboard neopixel ring")
 		(date "2024-10-04")
 		(rev "0.0.0-RC1")
 		(company "https://github.com/pedalboard")
-		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-display")
+		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-neopixel-ring")
 		(comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
 		(comment 3 "Git commit: ${GIT_HASH}")
 	)
@@ -2978,6 +2978,44 @@
 			(project "pedalboard-display"
 				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 24.13)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48841d67-bf6b-46ea-91fc-8a4fa6e7a591")
+		(property "Sheetname" "OLED"
+			(at 229.87 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oled.kicad_sch"
+			(at 229.87 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pedalboard-display"
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
+					(page "10")
 				)
 			)
 		)

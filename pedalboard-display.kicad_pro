@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "unresolved_variable|178002200|171007200||",
-        "unresolved_variable|32000000|59000000|9a536211-3f2b-427e-83a6-2cc63847e3d5|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -647,6 +644,10 @@
     [
       "c644a370-7604-41fa-a06f-3d12156bb3c9",
       "Led Ring A"
+    ],
+    [
+      "48841d67-bf6b-46ea-91fc-8a4fa6e7a591",
+      "OLED"
     ]
   ],
   "text_variables": {}
