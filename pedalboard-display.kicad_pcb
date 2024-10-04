@@ -232,6 +232,64 @@
 	(net 100 "/Led Ring A/D_OUT")
 	(net 101 "Net-(D97-DIN)")
 	(net 102 "Net-(D97-DOUT)")
+	(net 103 "unconnected-(DS1-~{RES}-Pad14)")
+	(net 104 "unconnected-(DS1-E{slash}~{RD}-Pad17)")
+	(net 105 "unconnected-(DS1-D2-Pad20)")
+	(net 106 "unconnected-(DS1-C2N-Pad2)")
+	(net 107 "unconnected-(DS1-VSS-Pad8)")
+	(net 108 "unconnected-(DS1-C1P-Pad4)")
+	(net 109 "Net-(DS1-GND-Pad1)")
+	(net 110 "unconnected-(DS1-VLSS-Pad29)")
+	(net 111 "unconnected-(DS1-VCOMH-Pad27)")
+	(net 112 "unconnected-(DS1-D5-Pad23)")
+	(net 113 "unconnected-(DS1-VBAT-Pad6)")
+	(net 114 "unconnected-(DS1-C2P-Pad3)")
+	(net 115 "unconnected-(DS1-D6-Pad24)")
+	(net 116 "unconnected-(DS1-VDD-Pad9)")
+	(net 117 "unconnected-(DS1-D4-Pad22)")
+	(net 118 "unconnected-(DS1-~{CS}-Pad13)")
+	(net 119 "unconnected-(DS1-VCC-Pad28)")
+	(net 120 "unconnected-(DS1-IREF-Pad26)")
+	(net 121 "unconnected-(DS1-D{slash}~{C}-Pad15)")
+	(net 122 "unconnected-(DS1-D7-Pad25)")
+	(net 123 "unconnected-(DS1-NC-Pad7)")
+	(net 124 "unconnected-(DS1-C1N-Pad5)")
+	(net 125 "unconnected-(DS1-BS2-Pad12)")
+	(net 126 "unconnected-(DS1-D1-Pad19)")
+	(net 127 "unconnected-(DS1-D3-Pad21)")
+	(net 128 "unconnected-(DS1-BS0-Pad10)")
+	(net 129 "unconnected-(DS1-R{slash}~{W}-Pad16)")
+	(net 130 "unconnected-(DS1-BS1-Pad11)")
+	(net 131 "unconnected-(DS1-D0-Pad18)")
+	(net 132 "unconnected-(DS2-R{slash}~{W}-Pad16)")
+	(net 133 "unconnected-(DS2-D2-Pad20)")
+	(net 134 "unconnected-(DS2-E{slash}~{RD}-Pad17)")
+	(net 135 "unconnected-(DS2-D1-Pad19)")
+	(net 136 "unconnected-(DS2-D6-Pad24)")
+	(net 137 "unconnected-(DS2-VLSS-Pad29)")
+	(net 138 "Net-(DS2-GND-Pad1)")
+	(net 139 "unconnected-(DS2-D5-Pad23)")
+	(net 140 "unconnected-(DS2-D{slash}~{C}-Pad15)")
+	(net 141 "unconnected-(DS2-~{RES}-Pad14)")
+	(net 142 "unconnected-(DS2-VCC-Pad28)")
+	(net 143 "unconnected-(DS2-VDD-Pad9)")
+	(net 144 "unconnected-(DS2-IREF-Pad26)")
+	(net 145 "unconnected-(DS2-BS1-Pad11)")
+	(net 146 "unconnected-(DS2-D7-Pad25)")
+	(net 147 "unconnected-(DS2-VCOMH-Pad27)")
+	(net 148 "unconnected-(DS2-NC-Pad7)")
+	(net 149 "unconnected-(DS2-D3-Pad21)")
+	(net 150 "unconnected-(DS2-~{CS}-Pad13)")
+	(net 151 "unconnected-(DS2-VSS-Pad8)")
+	(net 152 "unconnected-(DS2-C1P-Pad4)")
+	(net 153 "unconnected-(DS2-D4-Pad22)")
+	(net 154 "unconnected-(DS2-VBAT-Pad6)")
+	(net 155 "unconnected-(DS2-D0-Pad18)")
+	(net 156 "unconnected-(DS2-C1N-Pad5)")
+	(net 157 "unconnected-(DS2-C2P-Pad3)")
+	(net 158 "unconnected-(DS2-C2N-Pad2)")
+	(net 159 "unconnected-(DS2-BS0-Pad10)")
+	(net 160 "unconnected-(DS2-BS2-Pad12)")
 	(footprint "Fiducial:Fiducial_0.5mm_Mask1mm"
 		(layer "F.Cu")
 		(uuid "00b2647a-a591-459e-aa1e-70f7d78b3a1c")
@@ -261,7 +319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -285,7 +343,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -297,7 +355,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/5da38721-ab8d-41c7-a201-f04f9d867b36")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -371,7 +431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -383,7 +443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -395,7 +455,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -419,6 +479,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -593,7 +654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -605,7 +666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -617,7 +678,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -641,6 +702,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -815,7 +877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -827,7 +889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -839,7 +901,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -863,6 +925,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -1088,7 +1151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -1100,7 +1163,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -1112,7 +1175,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -1136,6 +1199,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -1361,7 +1425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1373,7 +1437,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1385,7 +1449,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1409,6 +1473,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -1634,7 +1699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -1646,7 +1711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -1658,7 +1723,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -1682,6 +1747,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -1907,7 +1973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1919,7 +1985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1931,7 +1997,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1955,6 +2021,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -2180,7 +2247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2192,7 +2259,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2204,7 +2271,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2228,6 +2295,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -2402,7 +2470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -2414,7 +2482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -2426,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -2450,6 +2518,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -2624,7 +2693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -2636,7 +2705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -2648,7 +2717,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -2672,6 +2741,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -2897,7 +2967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -2909,7 +2979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -2921,7 +2991,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -2945,6 +3015,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -3119,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3131,7 +3202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3143,7 +3214,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3167,6 +3238,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -3392,7 +3464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -3404,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -3416,7 +3488,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -3440,6 +3512,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -3614,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3626,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3638,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3662,6 +3735,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -3836,7 +3910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -3848,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -3860,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -3884,6 +3958,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -4109,7 +4184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -4121,7 +4196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -4133,7 +4208,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -4157,6 +4232,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -4382,7 +4458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4394,7 +4470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4406,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4430,6 +4506,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -4655,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -4667,7 +4744,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -4679,7 +4756,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -4703,6 +4780,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -4928,7 +5006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4940,7 +5018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4952,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4976,6 +5054,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -5201,7 +5280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5213,7 +5292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5225,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5249,6 +5328,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -5474,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -5486,7 +5566,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -5498,7 +5578,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -5522,6 +5602,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -5747,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5759,7 +5840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5771,7 +5852,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5795,6 +5876,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -5969,7 +6051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5981,7 +6063,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5993,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6017,6 +6099,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -6242,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -6254,7 +6337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -6266,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -6290,6 +6373,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -6464,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6476,7 +6560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6488,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6512,6 +6596,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -6737,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -6749,7 +6834,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -6761,7 +6846,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -6785,6 +6870,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -6959,7 +7045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -6971,7 +7057,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -6983,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -7007,6 +7093,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -7232,7 +7319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -7244,7 +7331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -7256,7 +7343,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -7280,6 +7367,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -7476,6 +7564,543 @@
 			)
 		)
 	)
+	(footprint "Display:OLED-128O064D"
+		(layer "F.Cu")
+		(uuid "1e7c4e8d-cc69-441e-a811-5848441a7f5e")
+		(at 148.05 123.7)
+		(descr "128x64 OLED display")
+		(tags "display oled")
+		(property "Reference" "DS2"
+			(at -0.35 2.1 0)
+			(layer "F.SilkS")
+			(uuid "0f71d331-b974-459a-8b6d-b314e54e9f6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OLED-128O064D"
+			(at -0.35 -6.9 0)
+			(layer "F.Fab")
+			(uuid "eaf8e1cc-ac78-4c11-981f-a1f31684c4db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Display:OLED-128O064D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f321300c-761b-40ec-88f5-33615c63b3d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/37902/oled128o064dbpp3n00000.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92b09f78-9d34-4887-9b25-4c9a9f13ea9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "OLED display 128x64"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85323c5b-d99d-495a-b9bf-6cbab24b2238")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "OLED?128O064D*")
+		(path "/48841d67-bf6b-46ea-91fc-8a4fa6e7a591/7053fc6d-15dd-409f-9f01-85a000390720")
+		(sheetname "OLED")
+		(sheetfile "oled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -11.15 -1)
+			(end -11.15 1.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e76b6c4-8c9a-4b34-9282-259f04f4dbcf")
+		)
+		(fp_line
+			(start -11.15 1.15)
+			(end 11.15 1.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f16cb5f-9779-4e52-9860-e21bb4f337ee")
+		)
+		(fp_line
+			(start 11.15 1.15)
+			(end 11.15 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c047263-9972-493c-bcca-3ab2d5aa602c")
+		)
+		(fp_circle
+			(center -8 -3.75)
+			(end -7.65 -3.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "12c1251f-9f3d-4315-8159-241d2528bcf6")
+		)
+		(fp_circle
+			(center 8 -3.75)
+			(end 8.35 -3.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "202534e8-9dab-47cc-b324-66e553d70fea")
+		)
+		(fp_line
+			(start -11.25 -3.14)
+			(end -11.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32550002-04a3-4951-a10a-36954a9662d4")
+		)
+		(fp_line
+			(start -6.05 -6.14)
+			(end -11.25 -3.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0236946c-5326-4b4b-8b46-d9620dfc6728")
+		)
+		(fp_line
+			(start 6.05 -6.14)
+			(end -6.05 -6.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "709c3560-8870-465c-a3dd-86e4fb828cf5")
+		)
+		(fp_line
+			(start 6.05 -6.14)
+			(end 11.25 -3.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1f79c46c-c259-442f-93db-c6131a9057ed")
+		)
+		(fp_line
+			(start 11.25 1.25)
+			(end -11.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16ff356e-60a1-4d58-b4fb-9e9e4207d9c6")
+		)
+		(fp_line
+			(start 11.25 1.25)
+			(end 11.25 -3.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8868c4b3-7183-4638-bd95-92d885042313")
+		)
+		(fp_line
+			(start -11 -3)
+			(end -6 -5.887)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "76ee955d-36e7-4b39-84ec-5e1f85f8a1ed")
+		)
+		(fp_line
+			(start -11 1)
+			(end -11 -3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0940524d-7d7a-4daa-a996-54d36adac217")
+		)
+		(fp_line
+			(start -11 1)
+			(end 11 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ead216c7-52b3-408d-af3d-09169a9b7df8")
+		)
+		(fp_line
+			(start -6 -5.887)
+			(end 6 -5.887)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "926994b7-2d4a-4907-affd-048ecdd04e2e")
+		)
+		(fp_line
+			(start 11 -3)
+			(end 6 -5.887)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75345beb-c8c2-4901-9201-841aad78a437")
+		)
+		(fp_line
+			(start 11 1)
+			(end 11 -3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c9497841-09eb-4f0f-b617-ffd9bf0e36dd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.35 2.1 0)
+			(layer "F.Fab")
+			(uuid "611fe64d-982b-445e-ad4e-25a4195c5fb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -10.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 138 "Net-(DS2-GND-Pad1)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "4a2beb13-56b4-461d-869a-51937eda2cce")
+		)
+		(pad "2" smd rect
+			(at -9.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 158 "unconnected-(DS2-C2N-Pad2)")
+			(pinfunction "C2N")
+			(pintype "passive")
+			(uuid "ea33688f-450f-477b-90a5-3b88e9683df8")
+		)
+		(pad "3" smd rect
+			(at -8.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 157 "unconnected-(DS2-C2P-Pad3)")
+			(pinfunction "C2P")
+			(pintype "passive")
+			(uuid "df3787f2-2e78-473a-8640-282515fcf57d")
+		)
+		(pad "4" smd rect
+			(at -8.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 152 "unconnected-(DS2-C1P-Pad4)")
+			(pinfunction "C1P")
+			(pintype "passive")
+			(uuid "bc474a55-abe2-4a80-b6b8-c95f8e77934b")
+		)
+		(pad "5" smd rect
+			(at -7.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 156 "unconnected-(DS2-C1N-Pad5)")
+			(pinfunction "C1N")
+			(pintype "passive")
+			(uuid "c657096f-2754-4dba-918d-60c5052fc0d9")
+		)
+		(pad "6" smd rect
+			(at -6.65 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 154 "unconnected-(DS2-VBAT-Pad6)")
+			(pinfunction "VBAT")
+			(pintype "power_in")
+			(uuid "c2d189d1-fc3a-498b-888c-d60e7740d85d")
+		)
+		(pad "7" smd rect
+			(at -5.95 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 148 "unconnected-(DS2-NC-Pad7)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "9c28d8fa-32e5-4518-9de1-cb20440831cf")
+		)
+		(pad "8" smd rect
+			(at -5.25 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 151 "unconnected-(DS2-VSS-Pad8)")
+			(pinfunction "VSS")
+			(pintype "power_in")
+			(uuid "acd76806-52ad-4d4e-99c2-b421f3e262fe")
+		)
+		(pad "9" smd rect
+			(at -4.55 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 143 "unconnected-(DS2-VDD-Pad9)")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "81481765-1cbf-40e5-814d-22fbce6e8d65")
+		)
+		(pad "10" smd rect
+			(at -3.85 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 159 "unconnected-(DS2-BS0-Pad10)")
+			(pinfunction "BS0")
+			(pintype "input")
+			(uuid "edcc341b-8da2-4709-a097-12ed20c0039f")
+		)
+		(pad "11" smd rect
+			(at -3.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 145 "unconnected-(DS2-BS1-Pad11)")
+			(pinfunction "BS1")
+			(pintype "input")
+			(uuid "922adb40-edde-4143-8d90-2707ef80ee65")
+		)
+		(pad "12" smd rect
+			(at -2.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 160 "unconnected-(DS2-BS2-Pad12)")
+			(pinfunction "BS2")
+			(pintype "input")
+			(uuid "f5c38664-6339-466e-aacf-2bce1fe55774")
+		)
+		(pad "13" smd rect
+			(at -1.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 150 "unconnected-(DS2-~{CS}-Pad13)")
+			(pinfunction "~{CS}")
+			(pintype "input")
+			(uuid "a58d053b-b540-470f-92df-10006400b0e7")
+		)
+		(pad "14" smd rect
+			(at -1.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 141 "unconnected-(DS2-~{RES}-Pad14)")
+			(pinfunction "~{RES}")
+			(pintype "input")
+			(uuid "6b047a83-a5f9-4f57-b4ba-76c442cb115f")
+		)
+		(pad "15" smd rect
+			(at -0.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 140 "unconnected-(DS2-D{slash}~{C}-Pad15)")
+			(pinfunction "D/~{C}")
+			(pintype "input")
+			(uuid "5a5bba06-919a-4a9c-ae63-a8e274fb625f")
+		)
+		(pad "16" smd rect
+			(at 0.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 132 "unconnected-(DS2-R{slash}~{W}-Pad16)")
+			(pinfunction "R/~{W}")
+			(pintype "input")
+			(uuid "0f8c41e4-082e-401f-b5ec-00100ead952a")
+		)
+		(pad "17" smd rect
+			(at 1.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 134 "unconnected-(DS2-E{slash}~{RD}-Pad17)")
+			(pinfunction "E/~{RD}")
+			(pintype "input")
+			(uuid "27db6392-7a75-483f-9427-e05852d84428")
+		)
+		(pad "18" smd rect
+			(at 1.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 155 "unconnected-(DS2-D0-Pad18)")
+			(pinfunction "D0")
+			(pintype "bidirectional")
+			(uuid "c498159a-c822-4b1f-963c-c9b64efef4eb")
+		)
+		(pad "19" smd rect
+			(at 2.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 135 "unconnected-(DS2-D1-Pad19)")
+			(pinfunction "D1")
+			(pintype "bidirectional")
+			(uuid "2b2a9de8-797e-4cc3-bf64-330887193e9e")
+		)
+		(pad "20" smd rect
+			(at 3.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 133 "unconnected-(DS2-D2-Pad20)")
+			(pinfunction "D2")
+			(pintype "bidirectional")
+			(uuid "1c9fd2af-9cff-4826-a2f2-09e2720df7da")
+		)
+		(pad "21" smd rect
+			(at 3.85 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 149 "unconnected-(DS2-D3-Pad21)")
+			(pinfunction "D3")
+			(pintype "bidirectional")
+			(uuid "a4f655cb-a1d6-4b30-8968-8b6548457656")
+		)
+		(pad "22" smd rect
+			(at 4.55 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 153 "unconnected-(DS2-D4-Pad22)")
+			(pinfunction "D4")
+			(pintype "bidirectional")
+			(uuid "bce7ac96-9a06-4e18-80d1-786cb90be738")
+		)
+		(pad "23" smd rect
+			(at 5.25 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 139 "unconnected-(DS2-D5-Pad23)")
+			(pinfunction "D5")
+			(pintype "bidirectional")
+			(uuid "493f1b9e-7d6f-4633-8f06-39078aafa538")
+		)
+		(pad "24" smd rect
+			(at 5.95 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 136 "unconnected-(DS2-D6-Pad24)")
+			(pinfunction "D6")
+			(pintype "bidirectional")
+			(uuid "30913216-7e8e-4dff-838e-19cd91a46d8d")
+		)
+		(pad "25" smd rect
+			(at 6.65 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 146 "unconnected-(DS2-D7-Pad25)")
+			(pinfunction "D7")
+			(pintype "bidirectional")
+			(uuid "92c44b9b-b50b-485f-bd11-d0d9c0e24d75")
+		)
+		(pad "26" smd rect
+			(at 7.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 144 "unconnected-(DS2-IREF-Pad26)")
+			(pinfunction "IREF")
+			(pintype "passive")
+			(uuid "8fbbae60-957c-45c4-83bd-f51b3c862282")
+		)
+		(pad "27" smd rect
+			(at 8.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 147 "unconnected-(DS2-VCOMH-Pad27)")
+			(pinfunction "VCOMH")
+			(pintype "passive")
+			(uuid "9be45884-d7e5-4e8c-a4d1-a49a469a485d")
+		)
+		(pad "28" smd rect
+			(at 8.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 142 "unconnected-(DS2-VCC-Pad28)")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "756aef3d-623e-4e89-bde2-95e0897e2342")
+		)
+		(pad "29" smd rect
+			(at 9.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 137 "unconnected-(DS2-VLSS-Pad29)")
+			(pinfunction "VLSS")
+			(pintype "power_in")
+			(uuid "37a28871-ee94-4793-aac4-bcc3a1203c53")
+		)
+		(pad "30" smd rect
+			(at 10.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 138 "Net-(DS2-GND-Pad1)")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "454ed124-d076-4bcb-84ab-43301b68ddbb")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/OLED-128O064D.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Library:LED_SK6812_EC15_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "1eac1083-1b49-47e9-90f1-9db2827302cb")
@@ -7505,7 +8130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -7517,7 +8142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -7529,7 +8154,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -7553,6 +8178,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -7778,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -7790,7 +8416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -7802,7 +8428,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -7826,6 +8452,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -8000,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8012,7 +8639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8024,7 +8651,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8048,6 +8675,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -8273,7 +8901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -8285,7 +8913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -8297,7 +8925,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -8321,6 +8949,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -8546,7 +9175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8558,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8570,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8594,6 +9223,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -8819,7 +9449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -8831,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -8843,7 +9473,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -8867,6 +9497,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -9041,7 +9672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -9053,7 +9684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -9065,7 +9696,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -9089,6 +9720,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -9314,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9326,7 +9958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9338,7 +9970,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9362,6 +9994,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -9587,7 +10220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -9599,7 +10232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -9611,7 +10244,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -9635,6 +10268,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -9860,7 +10494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9884,7 +10518,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9896,7 +10530,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/7f9cd016-06b3-40fd-87fb-46b528ac8b18")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -9970,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9982,7 +10618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9994,7 +10630,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10018,6 +10654,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -10192,7 +10829,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10204,7 +10841,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10216,7 +10853,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10240,6 +10877,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -10465,7 +11103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -10477,7 +11115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -10489,7 +11127,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -10513,6 +11151,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -10738,7 +11377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10750,7 +11389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10762,7 +11401,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10786,6 +11425,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -10960,7 +11600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10972,7 +11612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -10984,7 +11624,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -11008,6 +11648,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -11182,7 +11823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11194,7 +11835,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11206,7 +11847,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11230,6 +11871,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -11455,7 +12097,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -11467,7 +12109,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -11479,7 +12121,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -11503,6 +12145,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -11677,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -11689,7 +12332,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -11701,7 +12344,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -11725,6 +12368,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -11899,7 +12543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11911,7 +12555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11923,7 +12567,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11947,6 +12591,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -12172,7 +12817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -12184,7 +12829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -12196,7 +12841,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -12220,6 +12865,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -12445,7 +13091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12457,7 +13103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12469,7 +13115,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12493,6 +13139,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -12667,7 +13314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12679,7 +13326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12691,7 +13338,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12715,6 +13362,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -12889,7 +13537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12901,7 +13549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12913,7 +13561,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12937,6 +13585,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -13162,7 +13811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -13174,7 +13823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -13186,7 +13835,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -13210,6 +13859,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -13435,7 +14085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -13447,7 +14097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -13459,7 +14109,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -13483,6 +14133,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -13708,7 +14359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13720,7 +14371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13732,7 +14383,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13756,6 +14407,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -13981,7 +14633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -13993,7 +14645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -14005,7 +14657,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -14029,6 +14681,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -14254,7 +14907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14266,7 +14919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14278,7 +14931,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14302,6 +14955,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -14476,7 +15130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14488,7 +15142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14500,7 +15154,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14524,6 +15178,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -14698,7 +15353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -14710,7 +15365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -14722,7 +15377,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -14746,6 +15401,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -14920,7 +15576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14932,7 +15588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14944,7 +15600,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14968,6 +15624,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -15193,7 +15850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -15205,7 +15862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -15217,7 +15874,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -15241,6 +15898,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -15415,7 +16073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -15427,7 +16085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -15439,7 +16097,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -15463,6 +16121,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -15637,7 +16296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -15649,7 +16308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -15661,7 +16320,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -15685,6 +16344,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -15910,7 +16570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -15922,7 +16582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -15934,7 +16594,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -15958,6 +16618,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -16132,7 +16793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -16144,7 +16805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -16156,7 +16817,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -16180,6 +16841,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -16404,7 +17066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16416,7 +17078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16428,7 +17090,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16452,7 +17114,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/37ab7d37-debe-4d7f-80c9-610703bb4b63")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16625,7 +17289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -16637,7 +17301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -16649,7 +17313,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -16673,6 +17337,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -16847,7 +17512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -16859,7 +17524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -16871,7 +17536,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -16895,6 +17560,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -17120,7 +17786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17132,7 +17798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17144,7 +17810,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17168,6 +17834,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -17393,7 +18060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -17405,7 +18072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -17417,7 +18084,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -17441,6 +18108,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -17615,7 +18283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17627,7 +18295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17639,7 +18307,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17663,6 +18331,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -17888,7 +18557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -17900,7 +18569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -17912,7 +18581,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -17936,6 +18605,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -18161,7 +18831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -18173,7 +18843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -18185,7 +18855,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -18209,6 +18879,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -18434,7 +19105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18446,7 +19117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18458,7 +19129,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18482,6 +19153,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -18707,7 +19379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -18719,7 +19391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -18731,7 +19403,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -18755,6 +19427,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -18929,7 +19602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18941,7 +19614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18953,7 +19626,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18977,6 +19650,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -19202,7 +19876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19214,7 +19888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19226,7 +19900,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19250,6 +19924,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -19475,7 +20150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19487,7 +20162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19499,7 +20174,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19523,6 +20198,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/e65fc733-c89b-4270-a559-a00afe5a7a13")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -19748,7 +20424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -19760,7 +20436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -19772,7 +20448,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -19796,6 +20472,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -19970,7 +20647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19982,7 +20659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19994,7 +20671,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20018,6 +20695,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -20192,7 +20870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -20204,7 +20882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -20216,7 +20894,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -20240,6 +20918,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -20414,7 +21093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -20426,7 +21105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -20438,7 +21117,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -20462,6 +21141,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -20636,7 +21316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -20648,7 +21328,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -20660,7 +21340,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -20684,6 +21364,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -20858,7 +21539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20870,7 +21551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20882,7 +21563,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20906,6 +21587,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -21080,7 +21762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -21092,7 +21774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -21104,7 +21786,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -21128,6 +21810,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -21353,7 +22036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -21365,7 +22048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -21377,7 +22060,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -21401,6 +22084,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -21575,7 +22259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21587,7 +22271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21599,7 +22283,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21623,6 +22307,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -21797,7 +22482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21809,7 +22494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21821,7 +22506,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21845,6 +22530,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -22069,7 +22755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22093,7 +22779,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22105,7 +22791,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/97ee6dac-756f-4dd3-b8fe-72a787e4c37c")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -22179,7 +22867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -22191,7 +22879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -22203,7 +22891,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -22227,6 +22915,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -22401,7 +23090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -22413,7 +23102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -22425,7 +23114,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -22449,6 +23138,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -22623,7 +23313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -22635,7 +23325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -22647,7 +23337,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -22671,6 +23361,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -22896,7 +23587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -22908,7 +23599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -22920,7 +23611,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -22944,6 +23635,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -23169,7 +23861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -23181,7 +23873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -23193,7 +23885,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -23217,6 +23909,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -23442,7 +24135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -23454,7 +24147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -23466,7 +24159,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -23490,6 +24183,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -23664,7 +24358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23676,7 +24370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23688,7 +24382,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23712,6 +24406,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -23886,7 +24581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23898,7 +24593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23910,7 +24605,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23934,6 +24629,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -24159,7 +24855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -24171,7 +24867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -24183,7 +24879,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -24207,6 +24903,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -24381,7 +25078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24393,7 +25090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24405,7 +25102,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24429,6 +25126,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -24603,7 +25301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24615,7 +25313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24627,7 +25325,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24651,6 +25349,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -24876,7 +25575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -24888,7 +25587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -24900,7 +25599,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -24924,6 +25623,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -25098,7 +25798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25110,7 +25810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25122,7 +25822,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25146,6 +25846,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -25320,7 +26021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -25332,7 +26033,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -25344,7 +26045,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -25368,6 +26069,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -25542,7 +26244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -25554,7 +26256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -25566,7 +26268,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -25590,6 +26292,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -25815,7 +26518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25827,7 +26530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25839,7 +26542,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25863,6 +26566,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -26037,7 +26741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26049,7 +26753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26061,7 +26765,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26085,6 +26789,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -26259,7 +26964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26271,7 +26976,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26283,7 +26988,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26307,6 +27012,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -26481,7 +27187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -26493,7 +27199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -26505,7 +27211,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -26529,6 +27235,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -26703,7 +27410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26715,7 +27422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26727,7 +27434,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26751,6 +27458,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -26925,7 +27633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26937,7 +27645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26949,7 +27657,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -26973,6 +27681,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -27198,7 +27907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27210,7 +27919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27222,7 +27931,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27246,6 +27955,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -27471,7 +28181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27483,7 +28193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27495,7 +28205,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27519,6 +28229,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -27693,7 +28404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27705,7 +28416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27717,7 +28428,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27741,6 +28452,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -27915,7 +28627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27927,7 +28639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27939,7 +28651,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -27963,6 +28675,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -28188,7 +28901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -28200,7 +28913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -28212,7 +28925,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -28236,6 +28949,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -28410,7 +29124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -28422,7 +29136,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -28434,7 +29148,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -28458,6 +29172,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -28683,7 +29398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -28695,7 +29410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -28707,7 +29422,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -28731,6 +29446,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -28956,7 +29672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -28968,7 +29684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -28980,7 +29696,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -29004,6 +29720,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -29229,7 +29946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -29241,7 +29958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -29253,7 +29970,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -29277,6 +29994,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/5de16ab3-a918-44c6-8d06-b1c045e5a80f")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -29502,7 +30220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -29514,7 +30232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -29526,7 +30244,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -29550,6 +30268,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -29724,7 +30443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29736,7 +30455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29748,7 +30467,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29772,6 +30491,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/c80cb5bd-1fec-412a-880d-08a0b19acd6a")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -29997,7 +30717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -30009,7 +30729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -30021,7 +30741,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -30045,6 +30765,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -30270,7 +30991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -30282,7 +31003,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -30294,7 +31015,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -30318,6 +31039,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -30543,7 +31265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -30555,7 +31277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -30567,7 +31289,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -30591,6 +31313,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -30816,7 +31539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -30828,7 +31551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -30840,7 +31563,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -30864,6 +31587,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -31089,7 +31813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31101,7 +31825,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31113,7 +31837,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31137,6 +31861,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -31311,7 +32036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -31323,7 +32048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -31335,7 +32060,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -31359,6 +32084,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -31533,7 +32259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31545,7 +32271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31557,7 +32283,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31581,6 +32307,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -31756,7 +32483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31768,7 +32495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31780,7 +32507,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31804,7 +32531,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/2331e5d3-3cd3-4a55-af6b-dbc1c0e6bb8d")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32028,7 +32757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -32040,7 +32769,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -32052,7 +32781,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -32076,6 +32805,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -32301,7 +33031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -32313,7 +33043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -32325,7 +33055,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -32349,6 +33079,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -32574,7 +33305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -32586,7 +33317,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -32598,7 +33329,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -32622,6 +33353,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -32796,7 +33528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -32808,7 +33540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -32820,7 +33552,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -32844,6 +33576,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -33069,7 +33802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33081,7 +33814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33093,7 +33826,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33117,6 +33850,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -33291,7 +34025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33303,7 +34037,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33315,7 +34049,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33339,6 +34073,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -33564,7 +34299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -33576,7 +34311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -33588,7 +34323,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -33612,6 +34347,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -33837,7 +34573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33849,7 +34585,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33861,7 +34597,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33885,6 +34621,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -34059,7 +34796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34071,7 +34808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34083,7 +34820,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34107,6 +34844,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -34332,7 +35070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34344,7 +35082,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34356,7 +35094,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34380,6 +35118,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -34553,7 +35292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34565,7 +35304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34577,7 +35316,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34601,7 +35340,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d1fb91cb-aa8f-476b-b162-c522a118a7bb")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34774,7 +35515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -34786,7 +35527,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -34798,7 +35539,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -34822,6 +35563,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -34996,7 +35738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -35008,7 +35750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -35020,7 +35762,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -35044,6 +35786,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -35269,7 +36012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -35281,7 +36024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -35293,7 +36036,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -35317,6 +36060,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -35491,7 +36235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -35503,7 +36247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -35515,7 +36259,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -35539,6 +36283,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -35713,7 +36458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -35725,7 +36470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -35737,7 +36482,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -30)
 			(layer "F.Fab")
 			(hide yes)
@@ -35761,6 +36506,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/50a140fd-77cf-4c7d-87a7-a8e9211eaaa8")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -35935,7 +36681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -35947,7 +36693,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -35959,7 +36705,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -35983,6 +36729,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -36157,7 +36904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -36169,7 +36916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -36181,7 +36928,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -36205,6 +36952,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/813bfd09-0fc7-4824-9a44-a086dfa8fdc7")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -36430,7 +37178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36442,7 +37190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36454,7 +37202,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36478,6 +37226,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -36703,7 +37452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -36715,7 +37464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -36727,7 +37476,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -36751,6 +37500,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -36976,7 +37726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -36988,7 +37738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -37000,7 +37750,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -37024,6 +37774,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -37249,7 +38000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37261,7 +38012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37273,7 +38024,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37297,6 +38048,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -37522,7 +38274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37534,7 +38286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37546,7 +38298,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37570,6 +38322,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -37744,7 +38497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37756,7 +38509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37768,7 +38521,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37792,6 +38545,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/84a781bf-4dc3-480a-8a7c-028b2659015e")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -38017,7 +38771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38029,7 +38783,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38041,7 +38795,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38065,6 +38819,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -38239,7 +38994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -38251,7 +39006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -38263,7 +39018,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -38287,6 +39042,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -38461,7 +39217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -38473,7 +39229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -38485,7 +39241,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -38509,6 +39265,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -38683,7 +39440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -38695,7 +39452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -38707,7 +39464,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -38731,6 +39488,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -38906,7 +39664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38918,7 +39676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38930,7 +39688,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38954,7 +39712,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/7234c3d9-e5b7-4663-9b3e-a7e3763db68c")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39178,7 +39938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -39190,7 +39950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -39202,7 +39962,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -39226,6 +39986,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -39451,7 +40212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -39463,7 +40224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -39475,7 +40236,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -39499,6 +40260,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/96103b4e-106e-4f87-9c80-bf726dad36be")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -39724,7 +40486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -39736,7 +40498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -39748,7 +40510,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -39772,6 +40534,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -39997,7 +40760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -40009,7 +40772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -40021,7 +40784,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -40045,6 +40808,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -40219,7 +40983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -40231,7 +40995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -40243,7 +41007,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -40267,6 +41031,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -40441,7 +41206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -40453,7 +41218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -40465,7 +41230,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -40489,6 +41254,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -40714,7 +41480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40726,7 +41492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40738,7 +41504,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40762,6 +41528,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -40936,7 +41703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -40948,7 +41715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -40960,7 +41727,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -40984,6 +41751,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -41209,7 +41977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -41221,7 +41989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -41233,7 +42001,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -41257,6 +42025,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/b416d709-2d23-4e00-9aa8-2d1ab6c0f8c2")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -41431,7 +42200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -41443,7 +42212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -41455,7 +42224,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -41479,6 +42248,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -41653,7 +42423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -41665,7 +42435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -41677,7 +42447,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -41701,6 +42471,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -41926,7 +42697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -41938,7 +42709,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -41950,7 +42721,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -41974,6 +42745,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -42148,7 +42920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -42160,7 +42932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -42172,7 +42944,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -42196,6 +42968,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -42370,7 +43143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42382,7 +43155,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42394,7 +43167,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42418,6 +43191,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -42643,7 +43417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42655,7 +43429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42667,7 +43441,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42691,6 +43465,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -42865,7 +43640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42877,7 +43652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42889,7 +43664,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -42913,6 +43688,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/33c1e378-6622-43cb-b811-4e19bca3035b")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -43138,7 +43914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -43150,7 +43926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -43162,7 +43938,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -43186,6 +43962,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -43411,7 +44188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -43423,7 +44200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -43435,7 +44212,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -43459,6 +44236,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -43633,7 +44411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43645,7 +44423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43657,7 +44435,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43681,6 +44459,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/921cd85d-280a-4309-8e2e-9bde9969fcd0")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -43905,7 +44684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43917,7 +44696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43929,7 +44708,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43953,7 +44732,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f76a82b3-8c05-4158-a3d1-8dd43141b7d7")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44126,7 +44907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44138,7 +44919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44150,7 +44931,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44174,6 +44955,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/c540d291-3362-4839-8d86-1dc77d0993ff")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -44348,7 +45130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -44360,7 +45142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -44372,7 +45154,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -44396,6 +45178,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03a1be90-6662-4c1b-aea8-af89ab9fe3ff/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring GAIN")
 		(sheetfile "led_ring.kicad_sch")
@@ -44570,7 +45353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -44582,7 +45365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -44594,7 +45377,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -150)
 			(layer "F.Fab")
 			(hide yes)
@@ -44618,6 +45401,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c00f76d2-ee00-4ab6-af0a-f31a76675e6f/f1acd66f-c119-4e62-979e-486975143263")
 		(sheetname "Led Ring F")
 		(sheetfile "led_ring.kicad_sch")
@@ -44792,7 +45576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -44804,7 +45588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -44816,7 +45600,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -44840,6 +45624,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -45014,7 +45799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -45026,7 +45811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -45038,7 +45823,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -45062,6 +45847,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -45207,6 +45993,543 @@
 			)
 		)
 	)
+	(footprint "Display:OLED-128O064D"
+		(layer "F.Cu")
+		(uuid "dfab0cda-3fd0-4e8b-a190-9452471d0856")
+		(at 67.2 121.245)
+		(descr "128x64 OLED display")
+		(tags "display oled")
+		(property "Reference" "DS1"
+			(at -0.35 2.1 0)
+			(layer "F.SilkS")
+			(uuid "0a5c7c95-cfae-48f6-a846-b4c243fc9311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OLED-128O064D"
+			(at -0.35 -6.9 0)
+			(layer "F.Fab")
+			(uuid "de471483-b31a-4119-9123-36d68ad94a92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Display:OLED-128O064D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d570cd26-083e-4c96-82be-e826af5b0616")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/37902/oled128o064dbpp3n00000.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8090b826-1ded-4daa-bc62-1c59da944c11")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "OLED display 128x64"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa37daef-5b99-430f-b53d-5e2152b958bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "OLED?128O064D*")
+		(path "/48841d67-bf6b-46ea-91fc-8a4fa6e7a591/19824fc9-8025-45e4-93a4-be110b72773e")
+		(sheetname "OLED")
+		(sheetfile "oled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -11.15 -1)
+			(end -11.15 1.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bd1c9340-ea7f-4ab6-be38-32c8a09a09bf")
+		)
+		(fp_line
+			(start -11.15 1.15)
+			(end 11.15 1.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "59413399-e352-40ca-9450-f3c2409a36bd")
+		)
+		(fp_line
+			(start 11.15 1.15)
+			(end 11.15 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "892522f8-59e7-4f25-a9ed-71728b706d65")
+		)
+		(fp_circle
+			(center -8 -3.75)
+			(end -7.65 -3.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "f536d8c6-58c1-453a-9a76-6268f84637ef")
+		)
+		(fp_circle
+			(center 8 -3.75)
+			(end 8.35 -3.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "36e1727f-e6a2-4bac-a9e8-7fe1c8c4d636")
+		)
+		(fp_line
+			(start -11.25 -3.14)
+			(end -11.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3fb435de-b139-4bbd-aad2-fb56802c7ec4")
+		)
+		(fp_line
+			(start -6.05 -6.14)
+			(end -11.25 -3.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "891eb893-517b-4131-a599-e1024be83ac1")
+		)
+		(fp_line
+			(start 6.05 -6.14)
+			(end -6.05 -6.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7df784b3-5190-4d6f-9075-4fc7799d114e")
+		)
+		(fp_line
+			(start 6.05 -6.14)
+			(end 11.25 -3.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "202e7c2e-e107-4622-b4e4-498b2af0aa4f")
+		)
+		(fp_line
+			(start 11.25 1.25)
+			(end -11.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "316558cf-c105-48cc-b3e5-b7fd62e17fc7")
+		)
+		(fp_line
+			(start 11.25 1.25)
+			(end 11.25 -3.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dc135ff5-f4a9-48e5-990a-b4246b64b525")
+		)
+		(fp_line
+			(start -11 -3)
+			(end -6 -5.887)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2c5f1ca-c588-47da-82a9-185113239cf5")
+		)
+		(fp_line
+			(start -11 1)
+			(end -11 -3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fad1b7dd-315f-411b-afd8-cf7f9123e84f")
+		)
+		(fp_line
+			(start -11 1)
+			(end 11 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9c812e0c-a19a-4eef-8c3f-3044374119f9")
+		)
+		(fp_line
+			(start -6 -5.887)
+			(end 6 -5.887)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d16c754-c3d9-417b-80da-ddac18b40c53")
+		)
+		(fp_line
+			(start 11 -3)
+			(end 6 -5.887)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6be1cc4d-9d75-4e13-9875-20a9eb5efa70")
+		)
+		(fp_line
+			(start 11 1)
+			(end 11 -3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1392c393-c199-4caa-ab2e-930d0a7a1ada")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.35 2.1 0)
+			(layer "F.Fab")
+			(uuid "7e7a3d90-502c-489e-bde8-b84123573590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -10.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 109 "Net-(DS1-GND-Pad1)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "2fc101ab-3920-46c1-9d4c-6ebfd61c84df")
+		)
+		(pad "2" smd rect
+			(at -9.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 106 "unconnected-(DS1-C2N-Pad2)")
+			(pinfunction "C2N")
+			(pintype "passive")
+			(uuid "1b4e2164-6067-4b64-b7af-09994551303c")
+		)
+		(pad "3" smd rect
+			(at -8.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 114 "unconnected-(DS1-C2P-Pad3)")
+			(pinfunction "C2P")
+			(pintype "passive")
+			(uuid "66333416-dda5-471b-97cd-39fc1e656ceb")
+		)
+		(pad "4" smd rect
+			(at -8.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 108 "unconnected-(DS1-C1P-Pad4)")
+			(pinfunction "C1P")
+			(pintype "passive")
+			(uuid "25edada5-e82f-4952-8b4c-323387e4f340")
+		)
+		(pad "5" smd rect
+			(at -7.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 124 "unconnected-(DS1-C1N-Pad5)")
+			(pinfunction "C1N")
+			(pintype "passive")
+			(uuid "dbeae8ba-38eb-458a-89b1-5cf85e0c47f3")
+		)
+		(pad "6" smd rect
+			(at -6.65 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 113 "unconnected-(DS1-VBAT-Pad6)")
+			(pinfunction "VBAT")
+			(pintype "power_in")
+			(uuid "65e80a58-5e52-407d-b2c0-57afeb85e6f9")
+		)
+		(pad "7" smd rect
+			(at -5.95 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 123 "unconnected-(DS1-NC-Pad7)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "c150d486-7aed-4677-aa64-789d003dc888")
+		)
+		(pad "8" smd rect
+			(at -5.25 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 107 "unconnected-(DS1-VSS-Pad8)")
+			(pinfunction "VSS")
+			(pintype "power_in")
+			(uuid "237a4325-0d22-4e80-b812-3fae0208f3da")
+		)
+		(pad "9" smd rect
+			(at -4.55 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 116 "unconnected-(DS1-VDD-Pad9)")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "77e0c296-941b-457c-ae6c-57e3dc3023e3")
+		)
+		(pad "10" smd rect
+			(at -3.85 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 128 "unconnected-(DS1-BS0-Pad10)")
+			(pinfunction "BS0")
+			(pintype "input")
+			(uuid "e19313de-d623-44b4-8946-5044e7451a08")
+		)
+		(pad "11" smd rect
+			(at -3.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 130 "unconnected-(DS1-BS1-Pad11)")
+			(pinfunction "BS1")
+			(pintype "input")
+			(uuid "f2a438a7-d4c1-4fe1-a8c6-30a6180d2798")
+		)
+		(pad "12" smd rect
+			(at -2.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 125 "unconnected-(DS1-BS2-Pad12)")
+			(pinfunction "BS2")
+			(pintype "input")
+			(uuid "dbf2f8d8-745d-4b0e-900d-be1b64edfcbf")
+		)
+		(pad "13" smd rect
+			(at -1.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 118 "unconnected-(DS1-~{CS}-Pad13)")
+			(pinfunction "~{CS}")
+			(pintype "input")
+			(uuid "8cf30135-2971-4c30-846c-06ece72bf4c4")
+		)
+		(pad "14" smd rect
+			(at -1.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 103 "unconnected-(DS1-~{RES}-Pad14)")
+			(pinfunction "~{RES}")
+			(pintype "input")
+			(uuid "05e01e92-009b-4c8c-bc4e-92d4f932d727")
+		)
+		(pad "15" smd rect
+			(at -0.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 121 "unconnected-(DS1-D{slash}~{C}-Pad15)")
+			(pinfunction "D/~{C}")
+			(pintype "input")
+			(uuid "a20e5b1a-7e7b-4339-9fe5-78f519b6899d")
+		)
+		(pad "16" smd rect
+			(at 0.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 129 "unconnected-(DS1-R{slash}~{W}-Pad16)")
+			(pinfunction "R/~{W}")
+			(pintype "input")
+			(uuid "e64693fd-fbe4-410a-8873-81783f730b74")
+		)
+		(pad "17" smd rect
+			(at 1.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 104 "unconnected-(DS1-E{slash}~{RD}-Pad17)")
+			(pinfunction "E/~{RD}")
+			(pintype "input")
+			(uuid "0fa0c9bc-ee39-4bd8-b054-11c8cca82662")
+		)
+		(pad "18" smd rect
+			(at 1.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 131 "unconnected-(DS1-D0-Pad18)")
+			(pinfunction "D0")
+			(pintype "bidirectional")
+			(uuid "fab86841-27dd-4283-bd82-758121a29636")
+		)
+		(pad "19" smd rect
+			(at 2.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 126 "unconnected-(DS1-D1-Pad19)")
+			(pinfunction "D1")
+			(pintype "bidirectional")
+			(uuid "dc1a235e-f3a4-4044-9eaa-03787aaedbeb")
+		)
+		(pad "20" smd rect
+			(at 3.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 105 "unconnected-(DS1-D2-Pad20)")
+			(pinfunction "D2")
+			(pintype "bidirectional")
+			(uuid "129602fd-1111-4ca1-887c-9e4474ed1b58")
+		)
+		(pad "21" smd rect
+			(at 3.85 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 127 "unconnected-(DS1-D3-Pad21)")
+			(pinfunction "D3")
+			(pintype "bidirectional")
+			(uuid "e0e3bb8c-2831-42f1-8333-5525f4b7fe29")
+		)
+		(pad "22" smd rect
+			(at 4.55 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 117 "unconnected-(DS1-D4-Pad22)")
+			(pinfunction "D4")
+			(pintype "bidirectional")
+			(uuid "7b789a1f-1e19-47cb-bfdf-b676dec2d13f")
+		)
+		(pad "23" smd rect
+			(at 5.25 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 112 "unconnected-(DS1-D5-Pad23)")
+			(pinfunction "D5")
+			(pintype "bidirectional")
+			(uuid "62cd23dc-e9f8-4a75-b0f8-401d0be17c79")
+		)
+		(pad "24" smd rect
+			(at 5.95 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 115 "unconnected-(DS1-D6-Pad24)")
+			(pinfunction "D6")
+			(pintype "bidirectional")
+			(uuid "66a8df7b-11ca-4028-b26f-1f887eaab7d2")
+		)
+		(pad "25" smd rect
+			(at 6.65 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 122 "unconnected-(DS1-D7-Pad25)")
+			(pinfunction "D7")
+			(pintype "bidirectional")
+			(uuid "bbe4cf74-2550-446c-ad77-331382a7c3f5")
+		)
+		(pad "26" smd rect
+			(at 7.35 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 120 "unconnected-(DS1-IREF-Pad26)")
+			(pinfunction "IREF")
+			(pintype "passive")
+			(uuid "9f54113c-aee6-43b7-b9fb-3c4ae0ee5b47")
+		)
+		(pad "27" smd rect
+			(at 8.05 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 111 "unconnected-(DS1-VCOMH-Pad27)")
+			(pinfunction "VCOMH")
+			(pintype "passive")
+			(uuid "471933e0-d48b-40f6-8374-e0cfa10913d8")
+		)
+		(pad "28" smd rect
+			(at 8.75 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 119 "unconnected-(DS1-VCC-Pad28)")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "93897be7-7c82-4efb-88e1-bd85bdd536dc")
+		)
+		(pad "29" smd rect
+			(at 9.45 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 110 "unconnected-(DS1-VLSS-Pad29)")
+			(pinfunction "VLSS")
+			(pintype "power_in")
+			(uuid "4406020e-c472-4153-8752-f304b2454101")
+		)
+		(pad "30" smd rect
+			(at 10.15 0)
+			(size 0.4 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 109 "Net-(DS1-GND-Pad1)")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "e2f82bf9-9eae-4f55-bedd-97756f58283e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/OLED-128O064D.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dffbbc31-8a60-4ae4-89b7-acd481e1864d")
@@ -45236,7 +46559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45248,7 +46571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45260,7 +46583,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45284,6 +46607,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -45458,7 +46782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -45470,7 +46794,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -45482,7 +46806,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -45506,6 +46830,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -45680,7 +47005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -45692,7 +47017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -45704,7 +47029,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -45728,6 +47053,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/0829ff13-017f-4514-86ce-cad57b9f05f9")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -45902,7 +47228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -45914,7 +47240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -45926,7 +47252,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -120)
 			(layer "F.Fab")
 			(hide yes)
@@ -45950,6 +47276,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/0e61aa9b-e09c-4723-9310-13701fbb0516")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -46124,7 +47451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -46136,7 +47463,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -46148,7 +47475,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -46172,6 +47499,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/1ebd01f4-40b9-49a9-a3e2-066721ebabcb")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -46397,7 +47725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -46409,7 +47737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -46421,7 +47749,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -46445,6 +47773,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -46670,7 +47999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46682,7 +48011,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46694,7 +48023,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46718,6 +48047,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/68fd87e3-d9b5-4fa6-8a8f-95b033f5371e")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -46892,7 +48222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -46904,7 +48234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -46916,7 +48246,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -46940,6 +48270,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -47165,7 +48496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -47177,7 +48508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -47189,7 +48520,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -47213,6 +48544,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9f368d8b-0a33-48ea-87fd-73a39b4ae17d/29b28bef-647b-4e50-99e9-9711c7f1f241")
 		(sheetname "Led Ring D")
 		(sheetfile "led_ring.kicad_sch")
@@ -47387,7 +48719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -47399,7 +48731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -47411,7 +48743,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -47435,6 +48767,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c644a370-7604-41fa-a06f-3d12156bb3c9/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring A")
 		(sheetfile "led_ring.kicad_sch")
@@ -47609,7 +48942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -47621,7 +48954,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -47633,7 +48966,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -47657,6 +48990,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/60bcd1af-a60a-4f55-975b-2d52ed6bc101/2f4f2f46-b97c-4990-afef-b8df9dd4955f")
 		(sheetname "Led Ring C")
 		(sheetfile "led_ring.kicad_sch")
@@ -47882,7 +49216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47906,7 +49240,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47918,7 +49252,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/e77c6752-23c5-4d5b-afaa-89f8e31bae5a")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -47992,7 +49328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -48004,7 +49340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -48016,7 +49352,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -48040,6 +49376,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a611c427-264b-4cbb-a141-70a2759b7fda/6af91d45-fed6-4228-8ae0-4c45b53551cc")
 		(sheetname "Led Ring B")
 		(sheetfile "led_ring.kicad_sch")
@@ -48214,7 +49551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48226,7 +49563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48238,7 +49575,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48262,6 +49599,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/e4006925-9ed2-475f-b4f6-3ec88739cb0e")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -48487,7 +49825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48499,7 +49837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48511,7 +49849,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48535,6 +49873,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/edf8cb91-f8e6-448c-8a08-ef47a5449b99")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -48709,7 +50048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48721,7 +50060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48733,7 +50072,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48757,6 +50096,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/029e395c-1fc1-4b67-9758-83e93694a128")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -48931,7 +50271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48943,7 +50283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48955,7 +50295,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -60)
 			(layer "F.Fab")
 			(hide yes)
@@ -48979,6 +50319,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8686615e-b239-440c-93c8-70026f9bbbfb/ddf41873-2460-4c9c-9cd3-512ea643caed")
 		(sheetname "Led Ring E")
 		(sheetfile "led_ring.kicad_sch")
@@ -49153,7 +50494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -49165,7 +50506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -49177,7 +50518,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -49201,6 +50542,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2/7c3488fa-5d25-4787-8c90-ebfc8692ec2b")
 		(sheetname "Led Ring VOL")
 		(sheetfile "led_ring.kicad_sch")
@@ -49427,7 +50769,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49451,7 +50793,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49463,7 +50805,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/90c1306f-da2b-4a0b-9e69-e9cecfb86964")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -49864,7 +51208,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -49888,7 +51232,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -49900,7 +51244,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2cd7171f-fd8d-44e8-ba84-6d1c0261031d")
+		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
 		(attr smd)
 		(fp_line
