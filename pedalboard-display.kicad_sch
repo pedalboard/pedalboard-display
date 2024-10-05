@@ -5,11 +5,11 @@
 	(uuid "02aefeb1-bdda-4e04-a64a-6cb1fcf66702")
 	(paper "A4")
 	(title_block
-		(title "Pedalboard neopixel ring")
+		(title "Pedalboard Display")
 		(date "2024-10-04")
 		(rev "0.0.0-RC1")
 		(company "https://github.com/pedalboard")
-		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-neopixel-ring")
+		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-display-ring")
 		(comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
 		(comment 3 "Git commit: ${GIT_HASH}")
 	)
@@ -206,6 +206,248 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -805,11 +1047,131 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -883,8 +1245,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -903,9 +1265,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -919,7 +1281,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1003,8 +1365,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1110,6 +1472,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 175.26) (xy 100.33 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13aaca8f-c16e-4546-a450-704c7e2a91e1")
+	)
+	(wire
+		(pts
 			(xy 250.19 129.54) (xy 250.19 146.05)
 		)
 		(stroke
@@ -1157,6 +1529,16 @@
 			(type default)
 		)
 		(uuid "226f5746-a6c0-4078-9489-33152363cdf3")
+	)
+	(wire
+		(pts
+			(xy 110.49 170.18) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9f858d-c7e7-452d-ac51-a5641ae980b6")
 	)
 	(wire
 		(pts
@@ -1230,6 +1612,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 180.34) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49626d31-862e-4f74-b90b-6b31cd8bbff1")
+	)
+	(wire
+		(pts
 			(xy 140.97 31.75) (xy 140.97 39.37)
 		)
 		(stroke
@@ -1257,6 +1649,26 @@
 			(type default)
 		)
 		(uuid "4e551e7d-b2d0-4035-b379-ad27f504945a")
+	)
+	(wire
+		(pts
+			(xy 110.49 172.72) (xy 110.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdf36ad-b1ed-41a5-86a5-b7997bbdca8c")
+	)
+	(wire
+		(pts
+			(xy 110.49 171.45) (xy 114.3 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5063fda9-f6dd-4db3-a1e6-fdf0e7b78da9")
 	)
 	(wire
 		(pts
@@ -1347,6 +1759,16 @@
 			(type default)
 		)
 		(uuid "64cc7f80-009a-4c42-9d87-184c7473b368")
+	)
+	(wire
+		(pts
+			(xy 101.6 180.34) (xy 106.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f9f330-5f94-4b2a-8c4d-5b64a799b230")
 	)
 	(wire
 		(pts
@@ -1510,6 +1932,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 177.8) (xy 100.33 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42f4ea6-5acc-44d4-966e-27bf7f63903b")
+	)
+	(wire
+		(pts
 			(xy 44.45 78.74) (xy 50.8 78.74)
 		)
 		(stroke
@@ -1517,6 +1949,16 @@
 			(type default)
 		)
 		(uuid "a873e288-5703-49ec-8387-42b600112385")
+	)
+	(wire
+		(pts
+			(xy 100.33 172.72) (xy 110.49 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb94a02-3746-435e-b53a-7b7aa604b4ad")
 	)
 	(wire
 		(pts
@@ -1570,6 +2012,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 176.53) (xy 114.3 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0fc287-bccf-4432-937a-d90c98df5749")
+	)
+	(wire
+		(pts
 			(xy 91.44 38.1) (xy 95.25 38.1)
 		)
 		(stroke
@@ -1607,6 +2059,16 @@
 			(type default)
 		)
 		(uuid "c7e633f5-1972-47c0-93a3-ce24610100a1")
+	)
+	(wire
+		(pts
+			(xy 100.33 170.18) (xy 110.49 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b3b622-af1f-465d-ac59-04f6963e476c")
 	)
 	(wire
 		(pts
@@ -1729,6 +2191,72 @@
 		(uuid "fe709685-c218-4ea2-85c4-87d6381c82f2")
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 106.68 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eaa5ba2-3319-4102-adff-cd1483cd6336")
+		(property "Reference" "#PWR052"
+			(at 106.68 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 106.68 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bfc012a-1815-4f4d-8b10-31c2f59e8bed")
+		)
+		(instances
+			(project ""
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedalboard-display:SK6812")
 		(at 151.13 43.18 0)
 		(unit 1)
@@ -1831,7 +2359,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "LED IN"
 			(at 111.125 30.48 0)
 			(effects
 				(font
@@ -2220,7 +2748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 78.74 128.27 0)
 			(effects
 				(font
@@ -2286,7 +2814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 85.09 132.08 0)
 			(effects
 				(font
@@ -2314,7 +2842,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90c1306f-da2b-4a0b-9e69-e9cecfb86964")
 		(property "Reference" "J2"
@@ -2325,7 +2853,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "LED OUT"
 			(at 65.405 125.73 0)
 			(effects
 				(font
@@ -2423,7 +2951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 172.72 31.75 0)
 			(effects
 				(font
@@ -2553,7 +3081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 33.02 0)
 			(effects
 				(font
@@ -2569,6 +3097,146 @@
 			(project "pedalboard-display"
 				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 95.25 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aef53bdf-ba5b-4c96-ba55-7300b8763ed5")
+		(property "Reference" "J3"
+			(at 95.885 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OLED STEMMA"
+			(at 95.885 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77a45b40-f5f8-4849-9829-ee530f4ab3b4")
+		)
+		(pin "1"
+			(uuid "c60bc930-6ad0-437e-83af-43d6db0d19aa")
+		)
+		(pin "4"
+			(uuid "9120769b-1938-42ab-bc44-a02258656ec5")
+		)
+		(pin "3"
+			(uuid "53e701e8-b1e1-457a-ba25-089e30eb6f74")
+		)
+		(instances
+			(project ""
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b234f1-6f16-4de5-9240-9c5e2b7a0b51")
+		(property "Reference" "#PWR051"
+			(at 100.33 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "147cdc58-f0c2-438c-b016-84ea31cd6d1d")
+		)
+		(instances
+			(project ""
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2619,7 +3287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -2761,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -2983,7 +3651,7 @@
 		)
 	)
 	(sheet
-		(at 229.87 24.13)
+		(at 114.3 163.83)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -2995,7 +3663,7 @@
 		)
 		(uuid "48841d67-bf6b-46ea-91fc-8a4fa6e7a591")
 		(property "Sheetname" "OLED"
-			(at 229.87 23.4184 0)
+			(at 114.3 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,13 +3672,33 @@
 			)
 		)
 		(property "Sheetfile" "oled.kicad_sch"
-			(at 229.87 50.1146 0)
+			(at 114.3 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "I2C_SCL" input
+			(at 114.3 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb502e6d-e591-4d3d-9871-75e811a512d7")
+		)
+		(pin "I2C_SDA" input
+			(at 114.3 176.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d1a0af4-cf2b-434a-bed3-5480d9e028d2")
 		)
 		(instances
 			(project "pedalboard-display"

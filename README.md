@@ -24,8 +24,9 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/lates
 - Washer: [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/led-ring-washer.stl)
 
 ## Displays
+
 - <https://www.aliexpress.com/item/1005006762962052.html>
-- based on <https://learn.adafruit.com/assets/93884>
+- based on <https://learn.adafruit.com/assets/93884> and <http://wiki.sunfounder.cc/index.php?title=OLED-SSD1306_Module>
 
 ## How to release
 
