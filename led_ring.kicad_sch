@@ -5,8 +5,13 @@
 	(uuid "60096aa3-71d7-4ecc-887e-85af57e13118")
 	(paper "A4")
 	(title_block
-		(date "2024-10-04")
+		(title "Pedalboard Dispaly")
+		(date "2024-10-05")
 		(rev "0.0.0-RC1")
+		(company "https://github.com/pedalboard")
+		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-display")
+		(comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
+		(comment 3 "Git commit: ${GIT_HASH}")
 	)
 	(lib_symbols
 		(symbol "Device:C"
