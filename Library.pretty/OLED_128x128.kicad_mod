@@ -425,7 +425,7 @@
 	(pad "3" smd oval
 		(at -1.292 -25.3272 270)
 		(size 3.5 1.7)
-		(layers "B.Cu")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "0199d6f1-af0d-4343-bd6e-318c363f10c8")
 	)
 	(pad "4" smd oval
