@@ -5,7 +5,7 @@
 	(uuid "02aefeb1-bdda-4e04-a64a-6cb1fcf66702")
 	(paper "A4")
 	(title_block
-		(title "Pedalboard Dispaly")
+		(title "Pedalboard Display")
 		(date "2024-10-05")
 		(rev "0.0.0-RC1")
 		(company "https://github.com/pedalboard")
