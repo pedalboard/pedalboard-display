@@ -1112,16 +1112,11 @@ outputs:
     comment: 3D view from top
     type: render_3d
     dir: 3D
+    output_id: top
     options:
       ray_tracing: true
       orthographic: true
-      board: "#ffffff"
-      silk: "#000000"
       solder_mask: "#ffffff"
-      no_tht: true
-      zoom: 1
-      height: 720
-      width: 1024
   - name: basic_render_3d_30deg
     comment: 3D view from 30 degrees
     type: render_3d
@@ -1129,15 +1124,8 @@ outputs:
     output_id: 30deg
     options:
       ray_tracing: true
-      board: "#ffffff"
-      silk: "#000000"
-      solder_mask: "#ffffff"
       rotate_x: 3
       rotate_z: -2
-      no_tht: false
-      zoom: 1
-      height: 720
-      width: 1024
   - name: basic_render_3d_bottom_30deg
     comment: 3D bottom view from 30 degrees
     type: render_3d
@@ -1145,30 +1133,17 @@ outputs:
     output_id: 30deg-bottom
     options:
       ray_tracing: true
-      board: "#ffffff"
-      silk: "#000000"
-      solder_mask: "#ffffff"
       rotate_x: -14
       rotate_z: 2
-      no_tht: false
-      zoom: 1
-      height: 720
-      width: 1024
   - name: basic_render_3d_bottom
     comment: 3D view from bottom
     type: render_3d
     dir: 3D
+    output_id: bottom
     options:
       ray_tracing: true
       orthographic: true
-      board: "#ffffff"
-      silk: "#000000"
-      solder_mask: "#ffffff"
-      zoom: 4
-      no_tht: true
       view: bottom
-      height: 720
-      width: 1024
   - name: basic_stencil_3d
     comment: 3D self-registering stencil
     type: stencil_3d
