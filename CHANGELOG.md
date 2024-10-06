@@ -1,16 +1,7 @@
 # Change Log
 
-## [1.1.0] - Lumen PnP - TBD
+## TODO
 
-### Added
-- Add Fiducials for PnP
-
-### Changed
-- Rounded edge cuts
-- Use 0402 components for Lumen PnP
-- Configuration with solder jumber (instead of R0)
-
-### Removed
-- removed 2nd connector port
+* Pull Ups for I2C
 
 ## [1.0.0] - Initial Version - 2023-07-26
