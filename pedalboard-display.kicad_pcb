@@ -51052,7 +51052,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "LED-OUT"
 			(at 0 -4.45 90)
 			(layer "B.Fab")
 			(uuid "0eaba806-fa3a-4aef-93e6-ed0fb6e6c92d")
@@ -51110,7 +51110,7 @@
 		(path "/90c1306f-da2b-4a0b-9e69-e9cecfb86964")
 		(sheetname "Root")
 		(sheetfile "pedalboard-display.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -5.085 4.36)
 			(end -5.085 3.51)
@@ -51497,7 +51497,7 @@
 		(descr "JST PH series connector, B3B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J1"
-			(at 0 5.45 0)
+			(at -5 -5 0)
 			(layer "B.SilkS")
 			(uuid "c0db4f2b-26a0-4b8e-8d68-04f3f5587948")
 			(effects
@@ -51508,7 +51508,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "LED-IN"
 			(at 0 -4.45 0)
 			(layer "B.Fab")
 			(uuid "0636f065-9f30-494d-947f-024ad8d2f815")
@@ -53247,9 +53247,9 @@
 		(pts
 			(xy 116.937822 72) (xy 106.937822 72)
 		)
-		(height 14.24)
+		(height 13)
 		(gr_text "10 mm"
-			(at 111.937822 56.61 0)
+			(at 111.937822 57.85 0)
 			(layer "Dwgs.User")
 			(uuid "4fc23dfa-5c34-44d4-88d2-10fe3b3211c7")
 			(effects
@@ -53279,9 +53279,9 @@
 		(pts
 			(xy 106.937822 60) (xy 106.937822 84)
 		)
-		(height 20)
+		(height 14.937822)
 		(gr_text "24 mm"
-			(at 85.787822 72 90)
+			(at 90.85 72 90)
 			(layer "Dwgs.User")
 			(uuid "8b419434-b4b0-43d3-a243-945f8cd6af09")
 			(effects
@@ -53311,9 +53311,9 @@
 		(pts
 			(xy 106.937822 65.9) (xy 106.937822 78.1)
 		)
-		(height 17)
+		(height 12.937822)
 		(gr_text "12.2 mm"
-			(at 88.787822 72 90)
+			(at 92.85 72 90)
 			(layer "Dwgs.User")
 			(uuid "a7ed7bd1-f9a3-4db2-86fe-7d33aa61c26c")
 			(effects

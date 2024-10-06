@@ -2965,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "LED-IN"
 			(at 111.125 30.48 0)
 			(effects
 				(font
@@ -3590,7 +3590,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90c1306f-da2b-4a0b-9e69-e9cecfb86964")
 		(property "Reference" "J2"
@@ -3601,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "LED-OUT"
 			(at 65.405 125.73 0)
 			(effects
 				(font
