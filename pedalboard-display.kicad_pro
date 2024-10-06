@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unresolved_variable|178002200|171007200||",
+        "unresolved_variable|32000000|59000000|9a536211-3f2b-427e-83a6-2cc63847e3d5|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -495,7 +498,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PSU",
+        "pattern": "+3.3V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
