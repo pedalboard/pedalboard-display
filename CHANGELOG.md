@@ -4,6 +4,6 @@
 
 * Pull Ups for I2C
 * Move LED out (conflict with Audio connectors)
-* Move Single LEDs
+* Angled connectors
 
 ## [1.0.0] - Initial Version - 2023-07-26
