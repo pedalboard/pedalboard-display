@@ -2,10 +2,12 @@
 
 Features:
 
-- 8 LED rings
+- 8 LED RGB rings
 - Each of the 12 LEDs on a ring can get an individual color.
 - The led rings are cascaded and addressed via a single serial line.
 - Connector: Stemma conform 3 pin JST-PH
+- 2 additional single LEDs
+- 2 ports for 4 wire OLED displays with 4 pin Stemma connectors
 
 ## Generated Hardware Documentation
 
