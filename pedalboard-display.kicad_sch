@@ -3717,7 +3717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564c0ae5-86c4-43b1-b290-86203d714c24")
-		(property "Reference" "#SYM1"
+		(property "Reference" "SYM1"
 			(at 270.51 147.955 0)
 			(effects
 				(font
@@ -3765,7 +3765,7 @@
 		(instances
 			(project ""
 				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702"
-					(reference "#SYM1")
+					(reference "SYM1")
 					(unit 1)
 				)
 			)
