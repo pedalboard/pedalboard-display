@@ -150,6 +150,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "pedalboard-display:SK6812"
 			(pin_names
 				(offset 0.254)
@@ -3591,6 +3673,98 @@
 				)
 				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/c644a370-7604-41fa-a06f-3d12156bb3c9"
 					(reference "D95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8172537b-94d2-4720-80f2-547cce667267")
+		(property "Reference" "H6"
+			(at 52.07 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Actuator"
+			(at 52.07 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Actuator"
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/03a1be90-6662-4c1b-aea8-af89ab9fe3ff"
+					(reference "H6")
+					(unit 1)
+				)
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/60bcd1af-a60a-4f55-975b-2d52ed6bc101"
+					(reference "H8")
+					(unit 1)
+				)
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/8686615e-b239-440c-93c8-70026f9bbbfb"
+					(reference "H10")
+					(unit 1)
+				)
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/9f368d8b-0a33-48ea-87fd-73a39b4ae17d"
+					(reference "H12")
+					(unit 1)
+				)
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/a611c427-264b-4cbb-a141-70a2759b7fda"
+					(reference "H9")
+					(unit 1)
+				)
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/b1e2b4f6-0ba7-451d-b62b-4dbc4f5ed3b2"
+					(reference "H11")
+					(unit 1)
+				)
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/c00f76d2-ee00-4ab6-af0a-f31a76675e6f"
+					(reference "H7")
+					(unit 1)
+				)
+				(path "/02aefeb1-bdda-4e04-a64a-6cb1fcf66702/c644a370-7604-41fa-a06f-3d12156bb3c9"
+					(reference "H13")
 					(unit 1)
 				)
 			)
