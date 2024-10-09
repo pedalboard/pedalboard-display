@@ -442,4 +442,15 @@
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "b1ff5f8b-2c18-49b2-85e3-bd72b19e7cc8")
 	)
+	(model "${KIPRJMOD}/3d-models/oled-display.step"
+		(offset
+			(xyz 0 0 -1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
 )
