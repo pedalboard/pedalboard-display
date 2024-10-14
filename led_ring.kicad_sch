@@ -3706,7 +3706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:Actuator"
+		(property "Footprint" "${ActuatorFootprint}"
 			(at 49.53 83.82 0)
 			(effects
 				(font

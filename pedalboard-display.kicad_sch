@@ -5309,6 +5309,15 @@
 				(justify left top)
 			)
 		)
+		(property "ActuatorFootprint" "Library:ActuatorRotary"
+			(at 185.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "D_OUT" input
 			(at 210.82 43.18 0)
 			(effects
@@ -5365,6 +5374,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "ActuatorFootprint" "Library:Actuator"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "D_OUT" input
@@ -5425,6 +5443,15 @@
 				(justify left top)
 			)
 		)
+		(property "ActuatorFootprint" "Library:Actuator"
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "D_OUT" input
 			(at 153.67 81.28 0)
 			(effects
@@ -5481,6 +5508,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "ActuatorFootprint" "Library:Actuator"
+			(at 19.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "D_OUT" input
@@ -5541,6 +5577,15 @@
 				(justify left top)
 			)
 		)
+		(property "ActuatorFootprint" "Library:Actuator"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "D_OUT" input
 			(at 154.94 127 0)
 			(effects
@@ -5597,6 +5642,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "ActuatorFootprint" "Library:ActuatorRotary"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "D_OUT" input
@@ -5657,6 +5711,15 @@
 				(justify left top)
 			)
 		)
+		(property "ActuatorFootprint" "Library:Actuator"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "D_OUT" input
 			(at 245.11 86.36 0)
 			(effects
@@ -5713,6 +5776,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "ActuatorFootprint" "Library:Actuator"
+			(at 19.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "D_OUT" input
