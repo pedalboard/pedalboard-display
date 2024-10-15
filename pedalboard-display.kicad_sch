@@ -1848,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 35.56) (xy 123.19 36.83)
+			(xy 153.67 35.56) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1858,7 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 43.18) (xy 185.42 43.18)
+			(xy 172.72 43.18) (xy 185.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1945,16 +1945,6 @@
 			(type default)
 		)
 		(uuid "308a630d-43f2-45fa-be5e-a65e5c9741b8")
-	)
-	(wire
-		(pts
-			(xy 118.11 43.18) (xy 125.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32187fbf-9c2d-4e02-ad83-26193667c0b0")
 	)
 	(wire
 		(pts
@@ -2078,16 +2068,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 38.1) (xy 118.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ba4d63b-f47e-44fd-acb6-60c9258f57af")
-	)
-	(wire
-		(pts
 			(xy 52.07 114.3) (xy 64.77 114.3)
 		)
 		(stroke
@@ -2178,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 33.02) (xy 124.46 33.02)
+			(xy 149.86 38.1) (xy 158.75 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2218,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 118.11 38.1)
+			(xy 149.86 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2355,16 +2335,6 @@
 			(type default)
 		)
 		(uuid "b5de32e0-2833-405d-b075-7b3ac1f8e49b")
-	)
-	(wire
-		(pts
-			(xy 123.19 36.83) (xy 130.81 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b90b4fe2-8bcc-4c1b-b48e-343adc718e43")
 	)
 	(wire
 		(pts
@@ -2538,7 +2508,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 35.56) (xy 123.19 35.56)
+			(xy 149.86 40.64) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2907,16 +2877,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 110.49 35.56 0)
+		(at 144.78 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cd7171f-fd8d-44e8-ba84-6d1c0261031d")
 		(property "Reference" "J1"
-			(at 111.125 27.94 0)
+			(at 145.415 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2893,7 @@
 			)
 		)
 		(property "Value" "LED-IN"
-			(at 111.125 30.48 0)
+			(at 145.415 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2901,7 @@
 			)
 		)
 		(property "Footprint" "Library:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical"
-			(at 110.49 35.56 0)
+			(at 144.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 35.56 0)
+			(at 144.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 35.56 0)
+			(at 144.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,16 +4241,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 33.02 0)
+		(at 158.75 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac251bf1-b008-453e-b65b-ef712151a9a5")
 		(property "Reference" "#PWR03"
-			(at 124.46 39.37 0)
+			(at 158.75 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 38.1 0)
+			(at 162.306 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 33.02 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 33.02 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 33.02 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4370,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 130.81 36.83 0)
+		(at 153.67 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4411,7 +4379,7 @@
 		(fields_autoplaced yes)
 		(uuid "c75b728e-d44d-40c6-afc9-c9f75cb4b92c")
 		(property "Reference" "#PWR02"
-			(at 130.81 40.64 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4388,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 130.81 31.75 0)
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 36.83 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 36.83 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 130.81 36.83 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4436,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 43.18 90)
+		(at 168.91 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4476,7 +4444,7 @@
 		(dnp no)
 		(uuid "d1fb91cb-aa8f-476b-b162-c522a118a7bb")
 		(property "Reference" "R1"
-			(at 129.54 40.64 90)
+			(at 168.91 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4452,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 129.54 43.18 90)
+			(at 169.418 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4460,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 129.54 44.958 90)
+			(at 168.91 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4469,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf"
-			(at 129.54 43.18 0)
+			(at 168.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 43.18 0)
+			(at 168.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +4487,7 @@
 			)
 		)
 		(property "Supplier" "https://www.digikey.ch/en/products/detail/walsin-technology-corporation/WR04X3300FTL/13239224"
-			(at 129.54 43.18 0)
+			(at 168.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
