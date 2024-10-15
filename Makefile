@@ -3,7 +3,7 @@
 GIT_HASH = $(shell git rev-parse HEAD:sourceDirectory HEAD:file.py | git hash-object --stdin)
 PROJECT_NAME = pedalboard-display
 
-test:
+test: ## Run ERC and DRC checks
 	mkdir -p out
 	kicad-cli sch erc \
 		--define-var GIT_HASH=$(GIT_HASH) \
@@ -22,7 +22,7 @@ test:
 		$(PROJECT_NAME).kicad_pcb
 
 
-step:
+step: ## export 3D model
 	mkdir -p out
 	kicad-cli pcb export step \
 		--define-var GIT_HASH=$(GIT_HASH) \
@@ -31,7 +31,7 @@ step:
 		--force \
 		$(PROJECT_NAME).kicad_pcb
 
-pdf:
+pdf: ## export PDF (schematic and PCB)
 	mkdir -p out
 	kicad-cli pcb export pdf \
 		--define-var GIT_HASH=$(GIT_HASH) \
@@ -48,15 +48,14 @@ pdf:
 		--output out/$(PROJECT_NAME)-schematic.pdf \
 		$(PROJECT_NAME).kicad_sch
 
-
-bom:
+bom: ## export BOM
 	mkdir -p out
 	kicad-cli sch export bom \
     --preset "Grouped By Value" \
 		--output out/$(PROJECT_NAME)-bom.csv \
 		$(PROJECT_NAME).kicad_sch
 
-pos:
+pos: ## export Position file
 	mkdir -p out
 	kicad-cli pcb export pos \
 		--output out/$(PROJECT_NAME).pos \
