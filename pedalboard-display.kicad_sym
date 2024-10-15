@@ -186,7 +186,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "SK6812"
+		(property "Value" "SK6812_EC15"
 			(at 1.27 -5.715 0)
 			(effects
 				(font
@@ -195,7 +195,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SUNMAXIC OLED"
+		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -205,7 +205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 			(at 2.54 -9.525 0)
 			(effects
 				(font
@@ -215,7 +215,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OLED Display Module"
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/adafruit-industries-llc/4492/11569136"
 			(at 0 0 0)
 			(effects
 				(font
@@ -233,7 +242,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+		(property "ki_fp_filters" "LED*SK6812*PLCC*1.5x1.5mm"
 			(at 0 0 0)
 			(effects
 				(font

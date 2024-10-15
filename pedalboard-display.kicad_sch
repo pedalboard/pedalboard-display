@@ -1482,7 +1482,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812"
+			(property "Value" "SK6812_EC15"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -1491,7 +1491,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -1501,7 +1501,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -1511,7 +1511,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "https://www.digikey.ch/en/products/detail/adafruit-industries-llc/4492/11569136"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1529,7 +1538,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*SK6812*PLCC*1.5x1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2717,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 118.11) (xy 96.52 113.03)
+			(xy 96.52 115.57) (xy 96.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3092,12 +3101,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 83.82 95.25 0)
+			(at 76.2 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -3987,12 +3996,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 109.22 102.2859 0)
+			(at 97.79 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -4866,7 +4875,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 118.11 0)
+		(at 96.52 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4875,7 +4884,7 @@
 		(fields_autoplaced yes)
 		(uuid "d23d90f6-4da9-49fc-aca7-6430d0cc318e")
 		(property "Reference" "#PWR038"
-			(at 96.52 124.46 0)
+			(at 96.52 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 123.19 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +4901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 118.11 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 118.11 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 118.11 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

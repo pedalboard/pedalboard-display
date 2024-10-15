@@ -248,7 +248,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812"
+			(property "Value" "SK6812_EC15"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -257,7 +257,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -267,7 +267,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20(1).pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -277,7 +277,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "https://www.digikey.ch/en/products/detail/adafruit-industries-llc/4492/11569136"
 				(at 0 0 0)
 				(effects
 					(font
@@ -295,7 +304,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*SK6812*PLCC*1.5x1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2402,12 +2411,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 260.35 51.4859 0)
+			(at 248.92 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -2622,12 +2631,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 135.89 51.4859 0)
+			(at 124.46 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -2735,12 +2744,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 82.55 51.4859 0)
+			(at 71.12 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -3143,12 +3152,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 153.67 51.4859 0)
+			(at 142.24 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -3470,12 +3479,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 189.23 51.4859 0)
+			(at 177.8 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -3583,12 +3592,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 242.57 51.4859 0)
+			(at 231.14 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -3788,12 +3797,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 118.11 51.4859 0)
+			(at 106.68 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -3901,12 +3910,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 171.45 51.4859 0)
+			(at 160.02 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -4014,12 +4023,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 100.33 51.4859 0)
+			(at 88.9 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -4529,12 +4538,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 60.96 44.45 0)
+			(at 53.34 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -4749,12 +4758,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 207.01 51.4859 0)
+			(at 195.58 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
@@ -4862,12 +4871,12 @@
 			)
 		)
 		(property "Value" "SK6812_EC15"
-			(at 224.79 51.4859 0)
+			(at 213.36 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Library:LED_SK6812_EC15_1.5x1.5mm"
