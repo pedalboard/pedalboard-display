@@ -13,7 +13,7 @@ Features:
 
 Interactive [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fpedalboard%2Fpedalboard-display%2Ftree%2Fmain) viewer.
 
-Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/latest) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
+Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/v1.0.0) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 ## Fabrication
 

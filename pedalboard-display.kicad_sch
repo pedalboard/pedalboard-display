@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Pedalboard Display")
-		(date "2024-10-05")
-		(rev "0.0.0-RC1")
+		(date "2024-10-16")
+		(rev "1.0.0")
 		(company "https://github.com/pedalboard")
 		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-display")
 		(comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
