@@ -24,7 +24,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/v1.0.
 
 ![Top View](https://pedalboard.github.io/pedalboard-display-site/v1.0.0/3D/pedalboard-display-3D_blender_top.png)
 ![Bottom View](https://pedalboard.github.io/pedalboard-display-site/v1.0.0/3D/pedalboard-display-3D_blender_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/v1.0.0/3D/pedalboard-display-3D_blender_30deg.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-display-site/v1.0.0/3D/pedalboard-display-3D_blender_30deg.png)
 
 ## Additional mechanical components
 
