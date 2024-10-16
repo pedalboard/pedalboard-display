@@ -20,6 +20,12 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/v1.0.
 - [Generated iBOM](https://pedalboard.github.io/pedalboard-display-site/Assembly/pedalboard-display-ibom.html)
 - [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/I3LZUQ0FSV)
 
+## 3D Views
+
+![Top View](https://pedalboard.github.io/pedalboard-display-site/v1.0.0/3D/pedalboard-display-3D_blender_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-display-site/v1.0.0/3D/pedalboard-display-3D_blender_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/v1.0.0/3D/pedalboard-display-3D_blender_30deg.png)
+
 ## Additional mechanical components
 
 - Foot switch actuator: [Data Sheet](https://www.cliffuk.co.uk/products/switches/FC7125.pdf) [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/actuator.stl)
