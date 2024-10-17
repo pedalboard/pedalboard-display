@@ -2909,7 +2909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -2919,6 +2919,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/jst-sales-america-inc/B3B-PH-SM4-TB/926832"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -4024,7 +4033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -4034,6 +4043,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/jst-sales-america-inc/B3B-PH-SM4-TB/926832"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -4843,7 +4861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 67.31 172.72 0)
 			(effects
 				(font
@@ -4853,6 +4871,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/jst-sales-america-inc./B4B-PH-SM4-TB/926833"
 			(at 67.31 172.72 0)
 			(effects
 				(font
