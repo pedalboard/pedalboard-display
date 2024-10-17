@@ -550,14 +550,14 @@
           },
           {
             "group_by": false,
-            "label": "Supplier",
-            "name": "Supplier",
+            "label": "Datasheet",
+            "name": "Datasheet",
             "show": true
           },
           {
             "group_by": false,
-            "label": "Datasheet",
-            "name": "Datasheet",
+            "label": "Supplier",
+            "name": "Supplier",
             "show": true
           },
           {
@@ -595,7 +595,7 @@
         "group_symbols": true,
         "name": "pedalboard",
         "sort_asc": true,
-        "sort_field": "${ITEM_NUMBER}"
+        "sort_field": "Reference"
       }
     ],
     "bom_settings": {
@@ -615,14 +615,14 @@
         },
         {
           "group_by": false,
-          "label": "Supplier",
-          "name": "Supplier",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Supplier",
+          "name": "Supplier",
           "show": true
         },
         {
@@ -660,7 +660,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${ITEM_NUMBER}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
