@@ -18,7 +18,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/lates
 ## Fabrication
 
 - [Generated iBOM](https://pedalboard.github.io/pedalboard-display-site/latest/Assembly/pedalboard-display-ibom.html)
-- [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/I3LZUQ0FSV)
+- [DigiKey shared list](https://www.digikey.ch/en/mylists/list/VCPAA9117V)
 
 ## 3D Views
 
@@ -30,7 +30,6 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-display-site/lates
 
 - Foot switch actuator: [Data Sheet](https://www.cliffuk.co.uk/products/switches/FC7125.pdf) [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/actuator.stl)
 - Washer: [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/led-ring-washer.stl)
-- Display: <https://www.aliexpress.com/item/1005005253671396.html>
 
 ## How to release
 
