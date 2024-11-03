@@ -1,9 +1,18 @@
 <openpnp-job>
    <panels/>
    <board-locations>
-      <board-location side="Top" board-file="pedalboard-display.board.xml" panel-id="Panel1" check-fiducials="false" enabled="true">
-         <location units="Millimeters" x="102.09616916716034" y="339.9462736160549" z="0.0" rotation="0.07904437225145633"/>
-         <placed class="java.util.HashMap"/>
+      <board-location side="Top" board-file="pedalboard-display.board.xml" panel-id="Panel1" check-fiducials="true" enabled="true">
+         <location units="Millimeters" x="102.04202716197288" y="339.81122552971686" z="8.5" rotation="0.15932337118869183"/>
+         <placed class="java.util.HashMap">
+            <entry>
+               <string>D1</string>
+               <boolean>true</boolean>
+            </entry>
+            <entry>
+               <string>R1</string>
+               <boolean>false</boolean>
+            </entry>
+         </placed>
       </board-location>
    </board-locations>
 </openpnp-job>
