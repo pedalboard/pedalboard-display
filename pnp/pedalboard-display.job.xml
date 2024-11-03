@@ -2,7 +2,7 @@
    <panels/>
    <board-locations>
       <board-location side="Top" board-file="pedalboard-display.board.xml" panel-id="Panel1" check-fiducials="false" enabled="true">
-         <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         <location units="Millimeters" x="102.09616916716034" y="339.9462736160549" z="0.0" rotation="0.07904437225145633"/>
          <placed class="java.util.HashMap"/>
       </board-location>
    </board-locations>
