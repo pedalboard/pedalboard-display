@@ -2526,7 +2526,7 @@
 		)
 		(uuid "ff1f9adc-1e4e-4781-a8ac-d2932ff88694")
 	)
-	(text "Display Left:\nI2C address: 0x3C (original)"
+	(text "Display Right:\nI2C address: 0x3C (original)"
 		(exclude_from_sim no)
 		(at 160.274 156.464 0)
 		(effects
@@ -3251,10 +3251,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "54e754a2-de5c-49b6-bb69-e28c53516613")
 		(property "Reference" "U1"
-			(at 130.81 174.6249 0)
+			(at 123.952 187.8329 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3262,7 @@
 			)
 		)
 		(property "Value" "OLED I2C"
-			(at 130.81 176.53 0)
+			(at 123.952 189.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,10 +4169,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "975815ae-ab32-49b3-bf65-2b0e97dfbebe")
 		(property "Reference" "U2"
-			(at 171.45 174.6249 0)
+			(at 165.862 188.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4180,7 @@
 			)
 		)
 		(property "Value" "OLED I2C"
-			(at 171.45 176.53 0)
+			(at 165.862 190.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
