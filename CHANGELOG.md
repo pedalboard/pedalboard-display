@@ -3,6 +3,7 @@
 ## TODO
 
 - Place more lines on the bottom layer
+- Holes for access to the reset buttons
 
 ## 1.0.1-RC - -
 
