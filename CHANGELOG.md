@@ -7,4 +7,6 @@
 
 ## 1.0.1-RC - -
 
+- Upgrade to KiCAD 9
+
 ## 1.0.0 - Initial Version - 2024-19-16
