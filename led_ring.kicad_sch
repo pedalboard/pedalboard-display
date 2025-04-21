@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "60096aa3-71d7-4ecc-887e-85af57e13118")
 	(paper "A4")
 	(title_block
@@ -15,7 +15,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -88,7 +90,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -100,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -149,6 +151,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -231,6 +234,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pedalboard-display:SK6812"
 			(pin_names
@@ -326,18 +330,6 @@
 			(symbol "SK6812_0_1"
 				(polyline
 					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
 					)
 					(stroke
@@ -350,19 +342,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
 					)
 					(stroke
 						(width 0)
@@ -375,6 +355,18 @@
 				(polyline
 					(pts
 						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
 					)
 					(stroke
 						(width 0)
@@ -399,6 +391,18 @@
 				(polyline
 					(pts
 						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
 					)
 					(stroke
 						(width 0)
@@ -457,24 +461,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -493,13 +479,36 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -590,12 +599,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -667,7 +681,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -679,7 +693,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -710,6 +724,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -809,12 +824,6 @@
 		(uuid "74062ca5-7184-4706-9017-51d8e6a1e37d")
 	)
 	(junction
-		(at 229.87 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7574e343-c104-4b92-b4d1-46ca4a78264e")
-	)
-	(junction
 		(at 57.15 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -837,6 +846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a8329c2-8a3e-4648-bf52-b9b83dcdfbfc")
+	)
+	(junction
+		(at 229.87 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6923ba4-d62c-4aa1-bea4-f26c1145e3e1")
 	)
 	(junction
 		(at 90.17 106.68)
@@ -873,12 +888,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2f4ad03-de4d-40ce-b325-e229641f5836")
-	)
-	(junction
-		(at 229.87 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7720928-d2b2-4824-a777-933e3b04f8b9")
 	)
 	(junction
 		(at 194.31 40.64)
@@ -1027,16 +1036,6 @@
 			(type default)
 		)
 		(uuid "13694c19-1362-40fd-8618-5c182441fd15")
-	)
-	(wire
-		(pts
-			(xy 229.87 45.72) (xy 229.87 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1adf4c14-3572-4c67-a250-bea1efc0b2be")
 	)
 	(wire
 		(pts
@@ -1370,16 +1369,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 40.64) (xy 247.65 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760aa0eb-91ce-47b3-bc82-2a182120760b")
-	)
-	(wire
-		(pts
 			(xy 124.46 106.68) (xy 135.89 106.68)
 		)
 		(stroke
@@ -1620,16 +1609,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 40.64) (xy 229.87 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91c781e-7858-4187-aa5c-9124e67348bf")
-	)
-	(wire
-		(pts
 			(xy 166.37 52.07) (xy 168.91 52.07)
 		)
 		(stroke
@@ -1840,6 +1819,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 40.64) (xy 247.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bb0be6-1f75-4702-be57-d857a6db825d")
+	)
+	(wire
+		(pts
 			(xy 158.75 40.64) (xy 176.53 40.64)
 		)
 		(stroke
@@ -1990,6 +1979,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 40.64) (xy 229.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb00d571-df1e-43ad-ae6f-fdb2ae46de3d")
+	)
+	(wire
+		(pts
 			(xy 212.09 59.69) (xy 212.09 62.23)
 		)
 		(stroke
@@ -2051,7 +2050,6 @@
 	(hierarchical_label "D_OUT"
 		(shape input)
 		(at 260.35 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2063,7 +2061,6 @@
 	(hierarchical_label "D_IN"
 		(shape input)
 		(at 40.64 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
