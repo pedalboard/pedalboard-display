@@ -10,6 +10,7 @@ params:
   projectName: "Open Pedalboard — Display"
   description: "LED ring and OLED display PCB for the Open Pedalboard system"
   repoURL: "https://github.com/pedalboard/pedalboard-display"
+  oshwaID: "CH000019"
   license: "CERN-OHL-P-2.0"
   version: "main"
   renders: []
