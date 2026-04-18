@@ -15,3 +15,8 @@ and 2 OLED display ports for real-time effect parameter visualization.
 - 2 additional single LEDs
 - 2 ports for 4-wire OLED displays (Stemma 4-pin connectors)
 
+## Related
+
+- [Main Board](https://pedalboard.github.io/pedalboard-hw/latest/) — carrier board and MIDI controller
+- [Sound Card](https://pedalboard.github.io/pedalboard-soundcard/latest/) — I²S audio codec HAT
+
