@@ -1,0 +1,33 @@
+baseURL: https://pedalboard.github.io/pedalboard-display/latest/
+languageCode: en-us
+title: Open Pedalboard — Display
+
+module:
+  imports:
+    - path: github.com/laenzlinger/hugo-kicad-site
+
+params:
+  projectName: "Open Pedalboard — Display"
+  description: "LED ring and OLED display PCB for the Open Pedalboard system"
+  repoURL: "https://github.com/pedalboard/pedalboard-display"
+  license: "CERN-OHL-P-2.0"
+  version: "main"
+  renders: []
+  downloads: []
+  kicadFiles: []
+  env: production
+  socialIcons:
+    - name: github
+      url: "https://github.com/pedalboard/pedalboard-display"
+
+menu:
+  main:
+    - name: Board
+      url: /board/
+      weight: 20
+    - name: Release
+      url: /release/
+      weight: 30
+    - name: GitHub
+      url: https://github.com/pedalboard/pedalboard-display
+      weight: 100
