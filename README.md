@@ -1,6 +1,6 @@
 # Pedalboard Display
 
-LED ring and OLED display PCB for the Open Pedalboard system.
+LED ring and OLED display PCB for the [Open Pedalboard](https://github.com/pedalboard) system.
 
 **[Documentation →](https://pedalboard.github.io/pedalboard-display/latest/)**
 
@@ -15,14 +15,10 @@ LED ring and OLED display PCB for the Open Pedalboard system.
 
 ## Links
 
-- [Interactive BOM](https://pedalboard.github.io/pedalboard-display/latest/board/)
+- [Interactive schematic & PCB viewer](https://pedalboard.github.io/pedalboard-display/latest/board/)
 - [DigiKey shared list](https://www.digikey.ch/en/mylists/list/VCPAA9117V)
-
-## Additional mechanical components
-
-- Foot switch actuator: [Data Sheet](https://www.cliffuk.co.uk/products/switches/FC7125.pdf) [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/actuator.stl)
-- Washer: [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/led-ring-washer.stl)
+- Foot switch actuator: [Data Sheet](https://www.cliffuk.co.uk/products/switches/FC7125.pdf) / [3D Model](https://github.com/pedalboard/pedalboard-case/blob/main/generated/actuator.stl)
 
 ## License
 
-[CERN Open Hardware Licence Version 2 - Permissive](LICENSE.txt)
+[![OSHWA Certified](https://img.shields.io/badge/OSHWA-CH000019-blue)](https://certification.oshwa.org/ch000019.html) [![License](https://img.shields.io/badge/License-CERN--OHL--P--2.0-green)](LICENSE.txt)
