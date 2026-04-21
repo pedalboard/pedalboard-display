@@ -28,4 +28,3 @@ jobs:
       kibot_config: "pedalboard-display.kibot.yaml"
       site_base_url: "https://pedalboard.github.io/pedalboard-display"
       container_image: "ghcr.io/inti-cmnb/kicad10_auto_full:dev"
-      kibot_install: "apt-get install -y -qq kicad-packages3d > /dev/null 2>&1"
