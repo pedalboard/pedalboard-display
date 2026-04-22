@@ -61,3 +61,7 @@ tags
 # End of https://www.toptal.com/developers/gitignore/api/kicad,vim
 
 .kiro
+mise.local.toml
+.history/
+site/.hugo_build.lock
+site/static/

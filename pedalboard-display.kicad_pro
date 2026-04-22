@@ -812,7 +812,10 @@
       "Led Ring A"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "GIT_HASH": "unknown",
+    "REVISION": "dev"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
