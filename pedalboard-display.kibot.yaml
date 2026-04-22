@@ -255,6 +255,7 @@ outputs:
     comment: Download the datasheets
     type: download_datasheets
     dir: Datasheets
+    run_by_default: false
   - name: basic_dxf
     comment: Individual layers in DXF format
     type: dxf
