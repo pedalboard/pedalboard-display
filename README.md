@@ -4,7 +4,7 @@ LED ring and OLED display PCB for the [Open Pedalboard](https://github.com/pedal
 
 **[Documentation →](https://pedalboard.github.io/pedalboard-display/latest/)**
 
-![Top View](https://pedalboard.github.io/pedalboard-display/latest/3D/pedalboard-display-3D_blender_top.png)
+![Top View](https://pedalboard.github.io/pedalboard-display/latest/3D/pedalboard-display-3D_blender_1_top.png)
 
 ## Features
 
