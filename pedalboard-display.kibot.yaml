@@ -240,7 +240,6 @@ outputs:
     comment: Download the datasheets
     type: download_datasheets
     dir: Datasheets
-    disable_run: true  # disabled due to KiBot bug INTI-CMNB/KiBot#919
   - name: basic_dxf
     comment: Individual layers in DXF format
     type: dxf

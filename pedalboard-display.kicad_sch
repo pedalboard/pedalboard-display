@@ -5102,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf"
+		(property "Datasheet" "https://www.walsin.com/wp-content/uploads/pdf/WR_datasheet.pdf"
 			(at 168.91 43.18 0)
 			(hide yes)
 			(show_name no)
