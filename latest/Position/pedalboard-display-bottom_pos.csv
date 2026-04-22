@@ -4,3 +4,4 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J3","JST PH 4","JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical",124.0000,68.0000,180.0000,bottom
 "R2","3K3","R_0805_2012Metric",117.7500,60.0875,90.0000,bottom
 "R3","3K3","R_0805_2012Metric",115.7500,60.0875,90.0000,bottom
+"SYM1","Logo_Open_Hardware_Small","OSHW-Logo_5.7x6mm_SilkScreen",87.0000,98.0000,180.0000,bottom
